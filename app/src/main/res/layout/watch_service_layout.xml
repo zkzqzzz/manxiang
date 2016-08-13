@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    >
+    <ScrollView
+        android:id="@+id/left_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_width="90dp"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#f3f3f3"
+            android:paddingBottom="20dp"
+            >
+        </RadioGroup>
+    </ScrollView>
+    <LinearLayout
+        android:layout_toRightOf="@+id/left_layout"
+        android:id="@+id/watch_right_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <!--操作按钮-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp">
+            <ImageButton
+                android:id="@+id/watch_switch"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitCenter"
+                android:background="@color/transparent"
+                android:src="@mipmap/wg_special_header_two" />
+            <TextView
+                android:id="@+id/sort_type"
+                android:text="排列方式"
+                android:textColor="#e01120"
+                android:textSize="13sp"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/watch_switch"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/watch_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</RelativeLayout>

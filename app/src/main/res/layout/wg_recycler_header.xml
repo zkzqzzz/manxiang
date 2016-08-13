@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wg_function_unit_state"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/wg_item_distance_9">
+
+    <ImageView
+        android:id="@+id/iv_special_main_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/wg_item_distance_180"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ad01" />
+
+    <TextView
+        android:id="@+id/tv_special_main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18"
+        android:layout_marginTop="@dimen/wg_item_distance_6"
+        android:text="我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题"
+        android:textColor="@color/wg_font_1_black"
+        android:textSize="@dimen/wg_font_13" />
+
+    <TextView
+        android:id="@+id/tv_special_main_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18"
+        android:layout_marginTop="@dimen/wg_item_distance_6"
+        android:text="我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容"
+        android:textColor="@color/wg_font_2_description"
+        android:textSize="@dimen/wg_font_11" />
+
+
+</LinearLayout>

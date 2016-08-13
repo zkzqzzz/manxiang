@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mid_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <!--搜索框-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/search_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/search_input_height"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/take_photo"
+            android:background="@drawable/rounded_edittext_2"
+            android:drawableLeft="@mipmap/search_in_icon"
+            android:editable="false"
+            android:hint="  搜索服务或画家"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHint="@color/common_search_hint_font"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="@dimen/search_input_size" />
+
+        <ImageButton
+            android:id="@+id/take_photo"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/camera_icon" />
+    </RelativeLayout>
+    <!--banner-->
+    <com.houg.manxiang.ui.BannerSlideShowView
+        android:id="@+id/slide_wiew"
+        android:layout_width="match_parent"
+        android:layout_height="115dp">
+
+    </com.houg.manxiang.ui.BannerSlideShowView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/need"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/need_draw_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/wg_item_distance_6"
+                android:gravity="center_vertical"
+                android:text="我要画像"
+                android:textColor="#555555"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/header_title_line" />
+
+        <LinearLayout
+            android:id="@+id/becomme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/join_painter_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/wg_item_distance_6"
+                android:gravity="center_vertical"
+                android:text="我要成为画家"
+                android:textColor="#555555"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/header_title_line" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_above="@+id/bottomPanel"
+        android:background="@color/special_line" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/header_title_line" />
+
+    <!--秒杀等-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/seckill_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:padding="14dp">
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/miaos_icon"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/miaos_icon" />
+
+                <TextView
+                    android:id="@+id/miaos_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@+id/miaos_icon"
+                    android:gravity="center_vertical"
+                    android:text="秒杀"
+                    android:textColor="#d04962"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/miaos_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout"
+                android:layout_marginTop="6dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="秒杀的描述"
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:id="@+id/miaos_jis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/miaos_desc"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/hours"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#1f1f1f"
+                    android:gravity="center"
+                    android:text="00"
+                    android:textColor="@color/font_white"
+                    android:textSize="@dimen/miaos_txt_font_2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:text=":"
+                    android:textColor="#1f1f1f"
+                    android:textSize="@dimen/miaos_txt_font_2"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/minutes"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#1f1f1f"
+                    android:gravity="center"
+                    android:text="02"
+                    android:textColor="@color/font_white"
+                    android:textSize="@dimen/miaos_txt_font_2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:text=":"
+                    android:textColor="#1f1f1f"
+                    android:textSize="@dimen/miaos_txt_font_2"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/seconds"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#1f1f1f"
+                    android:gravity="center"
+                    android:text="54"
+                    android:textColor="@color/font_white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/miaos_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/miaos_jis"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/header_title_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/dashi_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/bg_white"
+                android:scaleType="fitCenter" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/header_title_line" />
+
+            <ImageView
+                android:id="@+id/join_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/bg_white"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/header_title_line" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/special_line" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/header_title_line" />
+
+
+</LinearLayout>

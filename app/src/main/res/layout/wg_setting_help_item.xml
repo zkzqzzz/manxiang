@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/wg_item_distance_18"
+    android:paddingRight="@dimen/wg_item_distance_18"
+    android:paddingTop="@dimen/wg_item_distance_18">
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="问题1"
+        android:textColor="@color/wg_font_1_black"
+        android:textSize="@dimen/wg_font_15" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/wg_item_distance_18"
+        android:text="解释内容解释内容解释内容解释内容解释内容解释内容解释内容解释内容
+        解释内容解释内容解释内容解释内容解释内容解释内容解释内容解释内容解释内容解释内容
+        解释内容解释内容解释内容解释内容解释内容解释内容解释内容解释内容解释内容"
+        android:textColor="@color/wg_font_2_description"
+        android:textSize="@dimen/wg_font_15" />
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginTop="@dimen/wg_item_distance_18" />
+</LinearLayout>

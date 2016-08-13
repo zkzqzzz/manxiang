@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <include
+       android:id="@+id/painter_header"
+       layout="@layout/wg_mine_header"/>
+
+    <com.houg.manxiang.ui.PainterStickyNavLayout
+        android:id="@+id/content_layout"
+        android:layout_below="@+id/painter_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_line"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:id="@+id/mid_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/search_btn"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="@dimen/login_input_padding"
+                android:paddingRight="@dimen/login_input_padding"
+                android:layout_height="@dimen/search_input_height"
+                android:textSize="@dimen/search_input_size"
+                android:hint="  搜索画室内画品"
+                android:textColorHint="@color/common_search_hint_font"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:background="@drawable/rounded_edittext_2"
+                android:drawableStart="@mipmap/search_in_icon"
+                android:drawableLeft="@mipmap/search_in_icon"
+                android:editable="false"
+                />
+            <!--banner-->
+            <ImageView
+                android:id="@+id/background_img"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:background="@color/transparent"
+                android:layout_height="115dp"/>
+            <RelativeLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/user_icon"
+                    android:src="@mipmap/def_header"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:scaleType="fitXY"
+                    app:riv_corner_radius="100dp"
+                    />
+                <RelativeLayout
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/user_icon"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                     <TextView
+                         android:text="昵称"
+                         android:layout_toLeftOf="@+id/rate_bar"
+                         android:id="@+id/painter_name"
+                         android:layout_alignParentLeft="true"
+                         android:layout_marginRight="5dp"
+                         android:lines="1"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:gravity="center_vertical"
+                         android:textColor="@color/common_one_rank_font"
+                         android:textSize="15sp"
+                         />
+                    <TextView
+                        android:layout_below="@+id/expert"
+                        android:id="@+id/painter_sign"
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/common_desc_font"
+                        android:textSize="13sp"
+                        android:lines="2"
+                        android:layout_height="wrap_content" />
+
+                    <RatingBar
+                        android:id="@+id/rate_bar"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="13dp"
+                        android:numStars="5"
+                        android:rating="0"
+                        style="@style/customRatingBar_2"
+                        android:isIndicator="true"
+                        />
+                    <TextView
+                        android:text="(擅长:     )"
+                        android:layout_below="@+id/painter_name"
+                        android:layout_toLeftOf="@+id/tra_count"
+                        android:id="@+id/expert"
+                        android:layout_width="wrap_content"
+                        android:gravity="center_vertical"
+                        android:textColor="#555555"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="5dp"
+                        android:textSize="14sp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:text="交易量: 0"
+                        android:layout_below="@+id/painter_name"
+                        android:id="@+id/tra_count"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:gravity="center_vertical"
+                        android:textColor="#8d8d8d"
+                        android:textSize="13sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="20dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/special_line" />
+        </LinearLayout>
+
+        <!--<android.support.design.widget.TabLayout
+            android:id="@+id/painter_tabs"
+            android:background = "@color/bg_white"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:tabIndicatorColor="#d50f25"
+
+            />-->
+        <RadioGroup
+            android:id="@+id/painter_tabs"
+            android:layout_below="@+id/_line"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/bottom_border"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <RadioButton
+                android:id="@+id/home_tab"
+                android:text="首页"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@color/common_one_rank_font"
+                android:textSize="@dimen/zhao_radio_txt_size_2"
+                android:background="@drawable/search_radiobutton_bg"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <RadioButton
+                android:id="@+id/all_service_tab"
+                android:text="全部服务"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@color/common_one_rank_font"
+                android:textSize="@dimen/zhao_radio_txt_size_2"
+                android:background="@drawable/search_radiobutton_bg"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <RadioButton
+                android:id="@+id/new_service_tab"
+                android:text="新品上架"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@color/common_one_rank_font"
+                android:textSize="@dimen/zhao_radio_txt_size_2"
+                android:background="@drawable/search_radiobutton_bg"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <RadioButton
+                android:id="@+id/comment_tab"
+                android:text="评论"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@color/common_one_rank_font"
+                android:textSize="@dimen/zhao_radio_txt_size_2"
+                android:background="@drawable/search_radiobutton_bg"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </RadioGroup>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/painter_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:scrollbars="none" />
+    </com.houg.manxiang.ui.PainterStickyNavLayout>
+    <View
+        android:id="@+id/bottom_line"
+        android:layout_above="@+id/painter_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/header_title_line" />
+    <LinearLayout
+        android:id="@+id/painter_bottom"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_white"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+    <!--   <Button
+           android:id="@+id/cat_btn"
+           android:text="分类"
+           android:layout_weight="1"
+           android:textSize="15sp"
+           android:background="@color/transparent"
+           android:layout_width="wrap_content"
+           android:layout_height="45dp" />
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/header_title_line" />-->
+        <Button
+            android:id="@+id/breif_btn"
+            android:text="画家简介"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:background="@color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp" />
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/header_title_line" />
+        <Button
+            android:id="@+id/collect_btn"
+            android:text="收藏"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:background="@color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp" />
+    </LinearLayout>
+</RelativeLayout>

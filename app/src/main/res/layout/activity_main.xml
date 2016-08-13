@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="hahahahahah"
+        android:gravity="center"/>-->
+
+    <!--一根线-->
+    <View
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@+id/bottomPanel"
+        android:background="@color/view_line" />
+    <include
+        android:id="@+id/bottomPanel"
+        layout="@layout/bottom_panel_layout" />
+
+    <com.demo.zk.manxiang.ui.CustomViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/bottom_line"
+        android:scrollbars="none" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white">
+
+    <include
+        android:id="@+id/wg_header"
+        layout="@layout/wg_mine_header" />
+
+    <ImageView
+        android:id="@+id/wg_common_header_liner"
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_below="@id/wg_header" />
+
+    <RelativeLayout
+        android:id="@+id/rl_common_mine_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wg_common_header_liner"
+        android:background="@drawable/wg_function_unit_state"
+        android:paddingLeft="@dimen/wg_item_distance_18"
+        android:paddingRight="@dimen/wg_item_distance_18">
+
+        <LinearLayout
+            android:id="@+id/ll_common_mine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/mine_setting_item_tv"
+                android:layout_marginBottom="@dimen/wg_item_distance_9"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:text="清除缓存"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_15" />
+
+            <TextView
+                style="@style/mine_setting_item_tv"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:text="图片、数据等"
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_14" />
+        </LinearLayout>
+
+
+        <ImageView
+            style="@style/mine_setting_item_ib"
+            android:layout_width="@dimen/wg_item_distance_14"
+            android:layout_height="@dimen/wg_item_distance_14"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/wg_right_more" />
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_below="@id/ll_common_mine" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

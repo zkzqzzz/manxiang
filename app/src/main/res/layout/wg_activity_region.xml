@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#E9E9E9"
+              android:orientation="vertical"
+              >
+
+    <!--android:paddingTop="20dip"
+    android:paddingTop="20dip"-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/id_province"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></kankan.wheel.widget.WheelView>
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/id_city"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></kankan.wheel.widget.WheelView>
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/id_district"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></kankan.wheel.widget.WheelView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:layout_margin="@dimen/dp_10"
+            android:gravity="center"
+            android:text="确定"
+            android:background="@drawable/wg_drawable_evaluate_solid_bg"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/wg_font_20"/>
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:layout_margin="@dimen/dp_10"
+            android:background="@drawable/wg_drawable_exchange_dialog_white_bg"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_20"/>
+    </LinearLayout>
+
+
+</LinearLayout>

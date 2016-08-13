@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_red"
+    android:padding="10dp">
+
+   <ImageView
+       android:layout_width="114dp"
+       android:layout_height="180dp"
+       android:src="@mipmap/start_logo"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="@dimen/start_logo_margin"
+       android:scaleType="fitXY"
+       />
+    <TextView
+        android:id="@+id/versionNumber"
+        android:layout_above="@+id/banquan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/start_version_size"
+        android:textStyle="bold"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor="@color/font_red"
+        android:background="@drawable/version_txt_bg"
+        />
+    <TextView
+        android:id="@+id/banquan"
+        android:text="漫像 @ 2015 MANXIANGER.COM"
+        android:textSize="@dimen/start_version_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/font_white"
+        />
+</RelativeLayout>

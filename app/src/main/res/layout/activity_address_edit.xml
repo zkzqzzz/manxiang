@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/wg_header"
+        layout="@layout/wg_mine_header_1" />
+
+    <ImageView
+        android:id="@+id/wg_header_liner"
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_below="@id/wg_header" />
+
+    <RelativeLayout
+        style="@style/mine_setting_item_rl"
+        android:layout_below="@id/wg_header_liner"
+        android:background="@color/transparent">
+
+        <EditText
+            android:id="@+id/et_address_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/wg_item_distance_14"
+            android:paddingRight="@dimen/wg_item_distance_45"
+            android:paddingTop="@dimen/wg_item_distance_14"
+            android:singleLine="true"
+            android:textSize="@dimen/wg_font_15" />
+
+        <ImageButton
+            android:id="@+id/ib_data_nick_clear"
+            style="@style/mine_setting_item_ib"
+            android:scaleType="fitXY"
+            android:layout_marginRight="@dimen/wg_item_distance_6"
+            android:layout_width="@dimen/wg_item_distance_18"
+            android:layout_height="@dimen/wg_item_distance_18"
+            android:background="@color/transparent"
+            android:src="@mipmap/wg_clear_character" />
+
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/wg_item_distance_64" />
+
+    <Button
+        android:id="@+id/bt_data_nick_ok"
+        android:layout_width="@dimen/wg_item_distance_140"
+        android:layout_height="@dimen/wg_item_distance_36"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/wg_item_distance_14"
+        android:background="@drawable/wg_drawable_evaluate_solid_bg"
+        android:text="确认"
+        android:textColor="@color/font_white"
+        android:textSize="@dimen/wg_font_17" />
+
+</RelativeLayout>

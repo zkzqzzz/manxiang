@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/dialog_space_1" >
+
+    <LinearLayout
+        android:layout_below="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dialog_bg_color"
+        android:padding="@dimen/operate_photo_btn_space_3"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_height"
+            android:background="@color/bg_white"
+            android:text="删除"
+            android:textColor="@color/dialog_txt_color"
+            android:textSize="@dimen/zhao_radio_txt_size_2"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_height"
+        android:layout_marginTop="@dimen/dialog_space_1"
+        android:background="@color/bg_white"
+        android:text="取消"
+        android:textColor="@color/font_red"
+        android:textSize="@dimen/zhao_radio_txt_size_2"
+        android:gravity="center"
+        />
+
+</LinearLayout>

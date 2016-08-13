@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/wg_function_unit_state"
+              android:orientation="vertical"
+              android:paddingLeft="@dimen/wg_item_distance_18"
+    android:paddingRight="@dimen/wg_item_distance_18"
+    android:paddingTop="@dimen/wg_item_distance_9">
+    <!--android:descendantFocusability="blocksDescendants"-->
+    <RelativeLayout
+        android:id="@+id/listview_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/myset_address_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="收件人"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_15"/>
+
+        <TextView
+            android:id="@+id/myset_address_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="手机号码"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_15"/>
+
+        <LinearLayout
+            android:id="@+id/ll_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myset_address_item_name"
+            android:layout_marginTop="@dimen/wg_item_distance_9"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/myset_address_item_provinces"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="省市县地址"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_15"/>
+
+            <TextView
+                android:id="@+id/myset_address_item_street"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="详细地址"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_15"/>
+
+        </LinearLayout>
+
+        <!--<CheckBox-->
+        <!--android:id="@+id/default_address_cb"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/ll_layout"-->
+        <!--android:button="@drawable/agree_checkbox_button"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="默认地址"-->
+        <!--android:textColor="@color/input_hint_font"-->
+        <!--android:textSize="@dimen/wg_font_15" />-->
+
+
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginTop="4dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp">
+
+        <CheckBox
+            android:id="@+id/default_address_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/agree_checkbox_button"
+            android:text="默认地址"
+            android:textColor="@color/input_hint_font"
+            android:textSize="@dimen/wg_font_15"/>
+
+        <LinearLayout
+            android:id="@+id/ll_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:visibility="invisible"
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/wg_item_distance_40"
+                android:layout_marginRight="5dp"
+
+                android:background="@color/transparent"
+                android:src="@mipmap/delete"
+                />
+
+            <TextView
+                android:id="@+id/delete_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:text="删除"
+                android:textColor="@color/input_hint_font"
+                android:textSize="@dimen/wg_font_15"
+
+                />
+            <!--android:layout_alignParentRight="true"-->
+            <!-- android:focusable="false"
+
+             android:clickable="true"-->
+
+
+            <!--android:layout_toLeftOf="@id/delete_address"-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/ll_delete"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="编辑"
+                android:textColor="@color/input_hint_font"
+                android:textSize="@dimen/wg_font_15"/>
+        </LinearLayout>
+        <!--android:layout_toLeftOf="@id/delete"-->
+    </RelativeLayout>
+    <!--<ImageView
+        style="@style/mine_setting_item_iv_f3"
+        android:layout_height="@dimen/wg_item_distance_6" />-->
+    <!--<ImageView
+        android:id="@+id/list_item_more"
+        style="@style/mine_setting_item_ib"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/wg_item_distance_14"
+        android:background="@color/transparent"
+        android:focusable="false"
+        android:src="@mipmap/wg_right_more" />-->
+
+</LinearLayout>

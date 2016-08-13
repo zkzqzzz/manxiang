@@ -1,0 +1,254 @@
+[
+    {
+        "outputFile": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\build\\intermediates\\res\\merged\\debug\\values-en\\values-en.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 68,
+                        "endColumn": 48,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 55,
+                    "endOffset": 155
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 118,
+                        "endColumn": 55,
+                        "endOffset": 169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 160,
+                    "endColumn": 45,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 45,
+                        "endOffset": 58
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 206,
+                    "endColumn": 58,
+                    "endOffset": 260
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 175,
+                        "endColumn": 58,
+                        "endOffset": 229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 265,
+                    "endColumn": 57,
+                    "endOffset": 318
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\src\\main\\res\\values-en\\cube_ptr_string.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 603,
+                        "endColumn": 62,
+                        "endOffset": 661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 323,
+                    "endColumn": 62,
+                    "endOffset": 381
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\src\\main\\res\\values-en\\cube_ptr_string.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 398,
+                        "endColumn": 67,
+                        "endOffset": 461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 386,
+                    "endColumn": 61,
+                    "endOffset": 443
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\src\\main\\res\\values-en\\cube_ptr_string.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 535,
+                        "endColumn": 66,
+                        "endOffset": 597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 448,
+                    "endColumn": 56,
+                    "endOffset": 500
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\src\\main\\res\\values-en\\cube_ptr_string.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 56,
+                        "endOffset": 111
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 505,
+                    "endColumn": 78,
+                    "endOffset": 579
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\src\\main\\res\\values-en\\cube_ptr_string.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 117,
+                        "endColumn": 78,
+                        "endOffset": 191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 584,
+                    "endColumn": 62,
+                    "endOffset": 642
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\src\\main\\res\\values-en\\cube_ptr_string.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 332,
+                        "endColumn": 62,
+                        "endOffset": 390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 647,
+                    "endColumn": 57,
+                    "endOffset": 700
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\src\\main\\res\\values-en\\cube_ptr_string.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 273,
+                        "endColumn": 57,
+                        "endOffset": 326
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 705,
+                    "endColumn": 74,
+                    "endOffset": 775
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\src\\main\\res\\values-en\\cube_ptr_string.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 197,
+                        "endColumn": 74,
+                        "endOffset": 267
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 780,
+                    "endColumn": 61,
+                    "endOffset": 837
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\SwipeRefreshAndLoadMore\\src\\main\\res\\values-en\\cube_ptr_string.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 467,
+                        "endColumn": 66,
+                        "endOffset": 529
+                    }
+                }
+            }
+        ]
+    }
+]

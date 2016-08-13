@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_evaluate_total_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:text=""
+        android:textColor="@color/wg_font_1_black"
+        android:textSize="@dimen/wg_font_14" />
+
+    <Button
+        android:id="@+id/bt_evaluate_write"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18"
+        android:layout_marginTop="@dimen/wg_item_distance_18"
+        android:background="@drawable/wg_drawable_evaluate_empty_bg"
+        android:text="写评价"
+        android:textColor="@color/wg_button_green"
+        android:textSize="@dimen/wg_font_15" />
+
+</RelativeLayout>

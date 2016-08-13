@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/guide4"
+         />
+    <Button
+        android:id="@+id/start"
+        android:text="开启漫像之旅"
+        android:textSize="@dimen/code_btn_size"
+        android:textStyle="bold"
+        android:textColor="@color/font_red"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/login_get_btn_height"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/rounded_red_border_button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        />
+</RelativeLayout>

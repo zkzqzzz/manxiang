@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header_layout"
+        layout="@layout/wg_mine_header" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_white">
+
+        <Button
+            android:id="@+id/addAddress"
+            android:layout_width="@dimen/wg_item_distance_180"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/wg_item_distance_14"
+            android:background="@drawable/wg_drawable_exchange_ok_bg"
+            android:text="新增收货地址"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/wg_font_15" />
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_above="@id/addAddress" />
+    </RelativeLayout>
+
+</LinearLayout>

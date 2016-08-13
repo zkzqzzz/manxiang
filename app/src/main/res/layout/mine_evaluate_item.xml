@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/combine_liner"
+        layout="@layout/wg_combine_liner" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/wg_item_distance_18">
+
+        <LinearLayout
+            android:id="@+id/ll_evaluate_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/service_img"
+                android:layout_width="@dimen/wg_item_distance_100"
+                android:layout_height="@dimen/wg_item_distance_100"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/bt_evaluate_write_again"
+                android:layout_width="@dimen/wg_item_distance_100"
+                android:layout_height="32dp"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/wg_drawable_evaluate_solid_bg"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="再画一张"
+                android:textColor="@color/font_white"
+                android:textSize="@dimen/wg_font_15" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/wg_item_distance_9"
+            android:layout_toRightOf="@id/ll_evaluate_item"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/service_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_14" />
+
+            <TextView
+                android:id="@+id/service_params"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:layout_marginTop="9dp"
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_12" />
+
+            <ImageView style="@style/mine_setting_item_iv_ae" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:layout_marginTop="9dp"
+                android:orientation="horizontal">
+
+                <RatingBar
+                    android:id="@+id/rate_bar"
+                    style="@style/customRatingBar_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="13dp"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginTop="6dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:rating="0" />
+
+                <TextView
+                    android:id="@+id/evaluate_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/wg_font_2_description"
+                    android:textSize="@dimen/wg_font_12" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/evaluate_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_12" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include layout="@layout/wg_combine_liner" />
+
+</LinearLayout>

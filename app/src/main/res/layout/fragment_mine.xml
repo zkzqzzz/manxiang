@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/personal_center_header"
+        layout="@layout/personal_center_be_artist" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/personal_mine_RL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/personal_center_header"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:gravity="center_vertical">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/ib_personal_header_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/wg_item_distance_18"
+                    android:background="@color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/default_header_icon"
+                    app:riv_corner_radius="60dp" />
+
+                <TextView
+                    android:id="@+id/tv_nick_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/wg_item_distance_18"
+                    android:layout_toRightOf="@id/ib_personal_header_icon"
+                    android:textColor="@color/wg_font_1_black"
+                    android:textSize="@dimen/wg_font_15" />
+
+                <ImageButton
+                    android:id="@+id/ib_personal_setting"
+                    style="@style/mine_setting_item_ib"
+                    android:layout_marginRight="@dimen/wg_item_distance_18"
+                    android:background="@color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/setting" />
+            </RelativeLayout>
+
+            <include layout="@layout/wg_combine_liner" />
+
+            <RelativeLayout
+                android:id="@+id/mine_form_RL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/personal_mine_RL">
+
+                <TextView
+                    android:id="@+id/mine_form_TV"
+                    style="@style/personal_mine_form_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="@dimen/wg_item_distance_9"
+                    android:layout_marginLeft="@dimen/wg_item_distance_18"
+                    android:layout_marginTop="@dimen/wg_item_distance_14"
+                    android:text="我的订单"
+                    android:textColor="@color/wg_font_1_black"
+                    android:textSize="@dimen/wg_font_15" />
+
+                <TextView
+                    android:background="@drawable/wg_function_unit_state"
+                    android:clickable="true"
+                    android:id="@+id/look_all"
+                    android:textColor="@color/wg_button_green"
+                    android:textSize="@dimen/wg_font_14"
+                    android:paddingTop="@dimen/wg_item_distance_14"
+                    android:paddingRight="@dimen/wg_item_distance_18"
+                    android:paddingLeft="@dimen/wg_item_distance_18"
+                    android:paddingBottom="@dimen/wg_item_distance_9"
+                    android:text="查看全部>"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mine_form_TV"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/wg_item_distance_18"
+                        android:layout_marginRight="@dimen/wg_item_distance_18"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:id="@+id/ll_pay"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/wg_function_unit_state"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/wg_item_distance_5"
+                            android:paddingTop="@dimen/wg_item_distance_5">
+
+                            <ImageView
+                                android:id="@+id/iv_pay"
+                                style="@style/personal_mine_form_ib"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:padding="3dp"
+                                android:src="@mipmap/wg_mine_need_pay" />
+
+                            <TextView
+                                android:id="@+id/tv_pay_count"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignRight="@id/iv_pay"
+                                android:background="@drawable/wg_message_count_bg"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textColor="@color/font_white"
+                                android:textSize="10sp"
+                                android:visibility="gone" />
+
+                            <TextView
+                                style="@style/personal_mine_form_tv"
+                                android:layout_below="@id/iv_pay"
+                                android:layout_marginTop="@dimen/wg_item_distance_5"
+                                android:text="待付款"
+                                android:textSize="@dimen/wg_font_13" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/ll_create"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/wg_function_unit_state"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/wg_item_distance_5"
+                            android:paddingTop="@dimen/wg_item_distance_5">
+
+                            <ImageView
+                                android:id="@+id/iv_create"
+                                style="@style/personal_mine_form_ib"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:padding="3dp"
+                                android:src="@mipmap/wg_mine_need_created" />
+
+                            <TextView
+                                android:id="@+id/tv_create_count"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignRight="@id/iv_create"
+                                android:background="@drawable/wg_message_count_bg"
+                                android:gravity="center"
+                                android:text="9"
+                                android:textColor="@color/font_white"
+                                android:textSize="10sp"
+                                android:visibility="gone" />
+
+                            <TextView
+                                style="@style/personal_mine_form_tv"
+                                android:layout_below="@id/iv_create"
+                                android:layout_marginTop="@dimen/wg_item_distance_5"
+                                android:text="待作画"
+                                android:textSize="@dimen/wg_font_13" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/ll_receive"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/wg_function_unit_state"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/wg_item_distance_5"
+                            android:paddingTop="@dimen/wg_item_distance_5">
+
+                            <ImageView
+                                android:id="@+id/iv_receive"
+                                style="@style/personal_mine_form_ib"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:padding="3dp"
+                                android:src="@mipmap/wg_mine_need_received" />
+
+                            <TextView
+                                android:id="@+id/tv_receive_count"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignRight="@id/iv_receive"
+                                android:background="@drawable/wg_message_count_bg"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textColor="@color/font_white"
+                                android:textSize="10sp"
+                                android:visibility="gone" />
+
+                            <TextView
+                                style="@style/personal_mine_form_tv"
+                                android:layout_below="@id/iv_receive"
+                                android:layout_marginTop="@dimen/wg_item_distance_5"
+                                android:text="待收画"
+                                android:textSize="@dimen/wg_font_13" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/ll_evaluate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/wg_function_unit_state"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/wg_item_distance_5"
+                            android:paddingTop="@dimen/wg_item_distance_5">
+
+                            <ImageView
+                                android:id="@+id/iv_evaluate"
+                                style="@style/personal_mine_form_ib"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:padding="3dp"
+                                android:src="@mipmap/wg_mine_need_evaluated" />
+
+                            <TextView
+                                android:id="@+id/tv_evaluate_count"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignRight="@id/iv_evaluate"
+                                android:background="@drawable/wg_message_count_bg"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textColor="@color/font_white"
+                                android:textSize="10sp"
+                                android:visibility="gone" />
+
+                            <TextView
+                                style="@style/personal_mine_form_tv"
+                                android:layout_below="@id/iv_evaluate"
+                                android:layout_marginTop="@dimen/wg_item_distance_5"
+                                android:text="待评价"
+                                android:textSize="@dimen/wg_font_13" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/ll_refund_aftermarket"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/wg_function_unit_state"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/wg_item_distance_5"
+                            android:paddingTop="@dimen/wg_item_distance_5">
+
+                            <ImageView
+                                android:id="@+id/iv_refund_aftermarket"
+                                style="@style/personal_mine_form_ib"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:padding="3dp"
+                                android:src="@mipmap/wg_mine_refund_aftermarket" />
+
+                            <TextView
+                                style="@style/personal_mine_form_tv"
+                                android:layout_below="@id/iv_refund_aftermarket"
+                                android:layout_marginTop="@dimen/wg_item_distance_5"
+                                android:text="退款/售后"
+                                android:textSize="@dimen/wg_font_13" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <include layout="@layout/wg_combine_liner" />
+
+            <GridView
+                android:id="@+id/personal_GV"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/wg_item_distance_250"
+                android:layout_margin="@dimen/wg_item_distance_14"
+                android:isScrollContainer="false"
+                android:numColumns="3"
+                android:scrollbarStyle="outsideOverlay"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

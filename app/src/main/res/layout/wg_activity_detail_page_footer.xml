@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_special_detail_entry_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/wg_item_distance_14"
+        android:paddingTop="@dimen/wg_item_distance_14"
+        android:text="进TA的画室看看"
+        android:textColor="@color/wg_font_2_description"
+        android:textSize="@dimen/wg_font_15" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/order_add_time"
+        style="@style/mine_setting_item_tv"
+        android:layout_marginTop="@dimen/wg_item_distance_6"
+        android:textColor="@color/Wg_font_3_gray"
+        android:textSize="@dimen/wg_font_11" />
+
+</LinearLayout>

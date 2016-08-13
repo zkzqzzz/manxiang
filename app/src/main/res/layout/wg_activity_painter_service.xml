@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_header_height"
+        android:background="@color/bg_white"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/wg_header_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/transparent"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/wg_header_back" />
+
+        <EditText
+            android:id="@+id/search_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/search_input_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_edittext_2"
+            android:drawableLeft="@mipmap/search_in_icon"
+            android:drawablePadding="6dp"
+            android:drawableStart="@mipmap/search_in_icon"
+            android:hint="分类名称"
+            android:paddingLeft="@dimen/login_input_padding"
+            android:paddingRight="@dimen/login_input_padding"
+            android:textColor="@color/wg_font_1_black"
+            android:textColorHint="@color/wg_font_2_description"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="@dimen/search_input_size" />
+
+        <Button
+            android:id="@+id/wg_right_search"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/wg_item_distance_6"
+            android:layout_marginRight="14dp"
+            android:background="@drawable/wg_drawable_evaluate_solid_bg"
+            android:text="搜本画室"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/wg_font_14" />
+    </LinearLayout>
+
+    <ImageView style="@style/mine_setting_item_iv_ae" />
+
+    <FrameLayout
+        android:id="@+id/painter_service_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/hot_search_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="热门畅销"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_13" />
+
+            <com.houg.manxiang.ui.KeywordCheckBoxGroup
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:columnCount="3"
+                android:orientation="horizontal"
+                android:useDefaultMargins="true" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

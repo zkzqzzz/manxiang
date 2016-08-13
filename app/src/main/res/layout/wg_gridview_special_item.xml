@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView style="@style/mine_setting_item_iv_e8" />
+
+        <ImageView
+            style="@style/mine_setting_item_iv_f3"
+            android:layout_height="@dimen/wg_item_distance_6" />
+
+        <ImageView style="@style/mine_setting_item_iv_e8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/wg_item_distance_18"
+        android:paddingRight="@dimen/wg_item_distance_18">
+
+        <ImageView
+            android:id="@+id/iv_special_detail_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/wg_item_distance_14"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/img_001" />
+
+        <TextView
+            android:id="@+id/tv_special_detail_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/wg_item_distance_9"
+            android:text="我是内容我是内容我是内容我是内容我是内容"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_15" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/wg_item_distance_14">
+
+            <TextView
+                android:id="@+id/tv_special_detail_price"
+                style="@style/mine_setting_item_tv"
+                android:text="$ 999"
+                android:textColor="@color/wg_buy_orange"
+                android:textSize="@dimen/wg_font_20" />
+
+            <TextView
+                android:id="@+id/tv_special_detail_numbers"
+                style="@style/mine_setting_item_tv"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="true"
+                android:text="1234"
+                android:textColor="@color/Wg_font_3_gray"
+                android:textSize="@dimen/wg_font_12" />
+
+            <ImageView
+                android:id="@+id/iv_special_detail_star"
+                android:layout_width="@dimen/wg_item_distance_13"
+                android:layout_height="@dimen/wg_item_distance_13"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/wg_item_distance_6"
+                android:layout_toLeftOf="@id/tv_special_detail_numbers"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/wg_special_detail_star_has" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

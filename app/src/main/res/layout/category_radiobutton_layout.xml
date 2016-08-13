@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:paddingLeft="@dimen/zhao_radio_group_pading"
+    android:paddingTop="@dimen/zhao_radio_group_pading"
+    android:paddingBottom="@dimen/zhao_radio_group_pading">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/cat_img"
+        android:layout_centerVertical="true"
+        android:layout_width="@dimen/zhao_radio_size_1"
+        android:layout_height="@dimen/zhao_radio_size_1"
+        android:scaleType="fitXY"
+        android:src="@mipmap/default_ico_service"
+        app:riv_corner_radius="10dp"
+        app:riv_border_width="0dip"
+        app:riv_border_color="@color/bg_red"
+        />
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/select_img"
+        android:layout_centerVertical="true"
+        android:layout_width="@dimen/zhao_radio_size_3"
+        android:layout_height="@dimen/zhao_radio_size_3"
+        android:scaleType="fitXY"
+        android:src="@mipmap/default_ico_service"
+        app:riv_corner_radius="10dp"
+        app:riv_border_width="@dimen/round_img_border"
+        app:riv_border_color="@color/bg_red"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/cat_name"
+        android:gravity="center"
+        android:text="卡通"
+        android:textColor="@color/zhao_radio_txt"
+        android:textSize="@dimen/zhao_radio_txt_size_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

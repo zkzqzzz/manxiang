@@ -1,0 +1,342 @@
+[
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_adjust_exposure.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_adjust_exposure.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lightzone_vibrance.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lightzone_vibrance.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_tool_crop.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_tool_crop.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_child_item_bg.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_child_item_bg.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lightzone_enhance.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lightzone_enhance.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_image_selector_bg.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_image_selector_bg.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lightzone_highlight.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lightzone_highlight.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_effect_class.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_effect_class.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_crop_crop23.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_crop_crop23.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_next.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_next.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_child_item_bg_selected.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_child_item_bg_selected.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_adjust_saturation.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_adjust_saturation.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_face_portrait_skin.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_face_portrait_skin.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_skin_class.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_skin_class.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_frame_class.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_frame_class.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_tiltshift_horizontal.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_tiltshift_horizontal.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_tint_shadow_color.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_tint_shadow_color.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_tool_class.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_tool_class.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_tiltshift_round.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_tiltshift_round.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_back.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_back.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_effect_item_bg_selected.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_effect_item_bg_selected.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_effect_start_store.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_effect_start_store.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_crop_crop618.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_crop_crop618.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_rotate_x.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_rotate_x.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_adjust_class.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_adjust_class.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_crop_crop_free.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_crop_crop_free.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_adjust_contrast.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_adjust_contrast.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_face_portrait_face_lift.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_face_portrait_face_lift.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lightzone_temperature.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lightzone_temperature.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\progress.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\progress.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lightzone_sharpen.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lightzone_sharpen.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_effect_item_bg.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_effect_item_bg.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lighting_class.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lighting_class.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_three_seekbar_txt_bg.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_three_seekbar_txt_bg.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_tiltshift_class.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_tiltshift_class.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lightzone_hue.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lightzone_hue.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_rotate_right.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_rotate_right.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_three_seekbar_txt_bg_selected.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_three_seekbar_txt_bg_selected.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_tiltshift_line.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_tiltshift_line.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_three_seekbar_txt.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_three_seekbar_txt.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_txt.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_txt.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lightzone_shadow.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lightzone_shadow.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_texture_class.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_texture_class.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_tiltshift_none.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_tiltshift_none.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_rotate_left.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_rotate_left.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_last.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_last.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_item_text.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_item_text.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_effect_back.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_effect_back.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_crop_crop916.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_crop_crop916.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_adjust_color_temp.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_adjust_color_temp.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lightzone_saturation.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lightzone_saturation.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_crop_crop34.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_crop_crop34.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_effect_child_selected_bg.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_effect_child_selected_bg.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_bg_effect_child_normal.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_bg_effect_child_normal.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_save.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_save.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_tiltshift_vertical.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_tiltshift_vertical.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_tint_middle_color.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_tint_middle_color.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_face_class.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_face_class.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_adjust_highlight.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_adjust_highlight.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_tool_rotate.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_tool_rotate.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_adjust_sharpen.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_adjust_sharpen.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_face_skin_white.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_face_skin_white.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lightzone_class.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lightzone_class.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_crop_crop11.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_crop_crop11.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_seekbar_bg.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_seekbar_bg.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lightzone_vignette_strong.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lightzone_vignette_strong.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\progress_bg.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\progress_bg.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lightzone_exposure.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lightzone_exposure.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\menu_item_btn_delete.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\menu_item_btn_delete.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_rotate_y.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_rotate_y.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_angle_random.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_angle_random.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_face_portrait_art.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_face_portrait_art.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_about.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_about.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_tint_class.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_tint_class.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_custom_progress_dialog.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_custom_progress_dialog.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\menu_item_text.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\menu_item_text.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_adjust_shadow.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_adjust_shadow.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_tint_high_light_color.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_tint_high_light_color.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lightzone_center_strong.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lightzone_center_strong.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_about_close.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_about_close.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_hsl_class.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_hsl_class.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_effect_mask_bg.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_effect_mask_bg.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_bg_effect_child_selected.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_bg_effect_child_selected.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_replace_effect.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_replace_effect.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\release\\drawable\\pg_sdk_edit_lightzone_contrast.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable\\pg_sdk_edit_lightzone_contrast.xml"
+    }
+]

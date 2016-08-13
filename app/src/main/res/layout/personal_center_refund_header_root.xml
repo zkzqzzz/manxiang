@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_header_height"
+    android:gravity="center_vertical">
+
+    <ImageButton
+        android:id="@+id/ib_personal_header_refund_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:background="@color/transparent"
+        android:scaleType="center"
+        android:src="@mipmap/wg_header_back" />
+
+    <TextView
+        android:id="@+id/tv_personal_refund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:text="退款/售后"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_txt_size" />
+
+    <ImageButton
+        android:id="@+id/ib_personal_header_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="18dp"
+        android:background="@color/transparent"
+        android:scaleType="center"
+        android:src="@mipmap/wg_more" />
+</RelativeLayout>

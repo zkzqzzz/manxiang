@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/express_layout_yes"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/wg_function_unit_state"
+    android:orientation="horizontal"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/wg_item_distance_18">
+
+        <TextView
+            style="@style/mine_setting_item_tv"
+            android:text="物流信息"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_15" />
+
+        <TextView
+            android:id="@+id/express_name"
+            style="@style/mine_setting_item_tv"
+            android:layout_marginTop="@dimen/wg_item_distance_6"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_14" />
+
+        <TextView
+            android:id="@+id/express_sn"
+            style="@style/mine_setting_item_tv"
+            android:layout_marginTop="@dimen/wg_item_distance_6"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_14" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/express_arrow"
+        android:layout_width="@dimen/wg_item_distance_14"
+        android:layout_height="@dimen/wg_item_distance_14"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/wg_item_distance_18"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/right_arrow" />
+
+</LinearLayout>

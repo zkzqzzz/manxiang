@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/tabContentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/wg_item_distance_9"
+            android:scaleType="fitXY"
+            android:src="@mipmap/special001" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/wg_item_distance_9"
+            android:text="商品介绍："
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_13" />
+
+        <TextView
+            android:id="@+id/goods_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/wg_item_distance_14"
+            android:text="这是一个牛逼的画室，藏着很多牛逼的事情；这是一个牛逼的画室，藏着很多牛逼的事情；"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_13" />
+
+    </LinearLayout>
+
+</FrameLayout>

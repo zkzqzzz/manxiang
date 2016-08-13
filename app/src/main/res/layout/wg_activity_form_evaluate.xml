@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/wg_mine_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView style="@style/mine_setting_item_iv_ae" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/wg_item_distance_250"
+                android:layout_height="@dimen/wg_item_distance_250"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:src="@mipmap/special002" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/wg_item_distance_18">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="评分"
+                    android:textColor="@color/wg_font_1_black"
+                    android:textSize="@dimen/wg_font_17" />
+
+                <RatingBar
+                    android:id="@+id/myRatingBar"
+                    style="@style/customRatingBar_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="1" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/wg_item_distance_18"
+                android:layout_marginRight="@dimen/wg_item_distance_18"
+                android:background="@drawable/wg_drawable_evaluate_edit_text_bg"
+                android:hint="请写下对画作的感受吧"
+                android:minLines="10"
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_17" />
+
+            <ImageView
+                style="@style/mine_setting_item_iv_ae"
+                android:layout_marginTop="@dimen/wg_item_distance_18" />
+
+            <Button
+                android:id="@+id/bt_give_evaluate"
+                android:layout_width="@dimen/wg_item_distance_140"
+                android:layout_height="@dimen/wg_item_distance_36"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:background="@drawable/wg_drawable_evaluate_solid_bg"
+                android:text="发表评价"
+                android:textColor="@color/font_white"
+                android:textSize="@dimen/wg_font_17" />
+
+            <ImageView
+                style="@style/mine_setting_item_iv_ae"
+                android:layout_marginTop="@dimen/wg_item_distance_14" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

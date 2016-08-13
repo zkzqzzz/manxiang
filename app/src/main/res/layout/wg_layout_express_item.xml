@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wg_function_unit_state"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/express_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/wg_item_distance_18"
+        android:text="快递公司"
+        android:textColor="@color/wg_font_1_black"
+        android:textSize="@dimen/wg_font_15" />
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+</LinearLayout>

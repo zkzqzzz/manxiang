@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/catalog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="#F8F8F8"
+        android:paddingBottom="2dp"
+        android:paddingLeft="@dimen/wg_item_distance_18"
+        android:paddingTop="2dp"
+        android:textColor="@color/wg_font_1_black" />
+
+    <LinearLayout
+        android:id="@+id/item_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/painter_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/wg_item_distance_14"
+            android:layout_marginTop="@dimen/wg_item_distance_14"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/wg_item_distance_18">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:focusable="false"
+                android:drawableLeft="@drawable/wg_checkbox_collection_bg"
+                android:paddingBottom="@dimen/wg_item_distance_9"
+                android:paddingRight="@dimen/wg_item_distance_9"
+                android:paddingTop="@dimen/wg_item_distance_9"
+                android:visibility="gone" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/painter_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/def_header"
+                app:riv_corner_radius="100dp" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/wg_item_distance_9"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_15" />
+
+        </LinearLayout>
+
+        <ImageView style="@style/mine_setting_item_iv_ae" />
+    </LinearLayout>
+
+</LinearLayout>

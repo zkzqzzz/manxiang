@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/categoryAndEditLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/wg_item_distance_40"
+            android:background="#F3F3F3">
+
+            <TextView
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingLeft="@dimen/wg_item_distance_18"
+                android:paddingRight="@dimen/wg_item_distance_18"
+                android:text="编辑"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_14" />
+
+        </RelativeLayout>
+
+        <ImageView style="@style/mine_setting_item_iv_ae" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_view">
+
+        <ListView
+            android:id="@+id/lv_painter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:divider="@null"
+            android:scrollbars="none" />
+
+        <com.houg.manxiang.SideBar
+            android:id="@+id/sideBar"
+            android:layout_width="@dimen/wg_item_distance_30"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center"
+            android:layout_marginBottom="@dimen/wg_item_distance_9"
+            android:layout_marginRight="@dimen/wg_item_distance_18"
+            android:layout_marginTop="@dimen/wg_item_distance_9"
+            android:background="@drawable/sidebar_background" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/cancelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView style="@style/mine_setting_item_iv_ae" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="@dimen/wg_item_distance_140"
+            android:layout_height="32dp"
+            android:layout_marginBottom="@dimen/wg_item_distance_14"
+            android:layout_marginTop="@dimen/wg_item_distance_14"
+            android:background="@drawable/wg_drawable_evaluate_solid_bg"
+            android:text="取消收藏"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/wg_font_15" />
+
+        <ImageView style="@style/mine_setting_item_iv_ae" />
+
+    </LinearLayout>
+
+</RelativeLayout>

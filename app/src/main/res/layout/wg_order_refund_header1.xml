@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/mine_setting_item_tv"
+            android:layout_marginBottom="@dimen/wg_item_distance_18"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginTop="@dimen/wg_item_distance_18"
+            android:text="退款金额"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_13" />
+
+        <TextView
+            android:id="@+id/refund_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/wg_item_distance_18"
+            android:text="300.00元"
+            android:textColor="@color/wg_font_2_description"
+            android:textSize="@dimen/wg_font_13" />
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/mine_setting_item_tv"
+            android:layout_marginBottom="@dimen/wg_item_distance_18"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginTop="@dimen/wg_item_distance_18"
+            android:text="退款时间"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_13" />
+
+        <TextView
+            android:id="@+id/refund_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/wg_item_distance_18"
+            android:text="2016-01-31  10:30:03"
+            android:textColor="@color/wg_font_2_description"
+            android:textSize="@dimen/wg_font_13" />
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/mine_setting_item_tv"
+            android:layout_marginBottom="@dimen/wg_item_distance_18"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginTop="@dimen/wg_item_distance_18"
+            android:text="退款编号"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_13" />
+
+        <TextView
+            android:id="@+id/refund_sn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/wg_item_distance_18"
+            android:text="123456789101114"
+            android:textColor="@color/wg_font_2_description"
+            android:textSize="@dimen/wg_font_13" />
+    </RelativeLayout>
+
+</LinearLayout>

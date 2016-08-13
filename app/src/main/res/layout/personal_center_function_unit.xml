@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="@drawable/wg_function_unit_state"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/wg_item_distance_9"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/wg_item_distance_50"
+        android:layout_height="@dimen/wg_item_distance_50"
+        android:layout_marginTop="@dimen/wg_item_distance_5"
+        android:id="@+id/function_unit_ib"
+        style="@style/personal_mine_form_ib"
+        android:scaleType="fitCenter"
+        android:background="@mipmap/default_ico_service" />
+
+    <TextView
+        android:id="@+id/function_unit_tv"
+        style="@style/personal_mine_form_tv"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/wg_font_14"
+        android:layout_below="@id/function_unit_ib"
+        android:text="默认功能" />
+</RelativeLayout>

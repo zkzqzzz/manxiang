@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_item"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <ImageView
+            android:id="@+id/service_img"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="fitXY" />
+
+        <View
+            android:id="@+id/item_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#7b7b7b7b"
+            android:visibility="gone"
+            android:focusable="false" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/wg_item_distance_20"
+            android:layout_marginRight="@dimen/wg_item_distance_20"
+            android:button="@null"
+            android:drawableLeft="@drawable/wg_checkbox_collection_bg"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/service_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/wg_item_distance_18"
+        android:layout_marginTop="@dimen/wg_item_distance_18"
+        android:gravity="center"
+        android:lines="1"
+        android:paddingLeft="@dimen/wg_item_distance_40"
+        android:paddingRight="@dimen/wg_item_distance_40"
+        android:textColor="@color/wg_font_1_black"
+        android:textSize="@dimen/wg_font_15" />
+
+
+</LinearLayout>

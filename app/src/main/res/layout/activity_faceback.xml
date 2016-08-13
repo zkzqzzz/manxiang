@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include layout="@layout/wg_mine_header" />
+
+    <EditText
+        android:id="@+id/faceback"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/wg_item_distance_18"
+        android:layout_weight="1"
+        android:background="@drawable/gay_textview_border"
+        android:gravity="left"
+        android:hint="您的满意是我们不懈追求的动力，请输入您的宝贵意见。"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="@color/wg_font_1_black"
+        android:textColorHint="@color/wg_font_2_description"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="@dimen/wg_item_distance_160"
+        android:layout_height="@dimen/wg_item_distance_36"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/wg_item_distance_18"
+        android:background="@drawable/wg_drawable_evaluate_solid_bg"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_font"
+        android:textSize="@dimen/wg_font_17" />
+
+</LinearLayout>

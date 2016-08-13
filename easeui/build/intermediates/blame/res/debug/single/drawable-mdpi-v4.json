@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "G:\\Project\\manxiang\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\listview_chat_bg_left_new.9.png",
+        "source": "G:\\Project\\manxiang\\easeui\\src\\main\\res\\drawable-mdpi\\listview_chat_bg_left_new.9.png"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\listview_chat_bg_right_new.9.png",
+        "source": "G:\\Project\\manxiang\\easeui\\src\\main\\res\\drawable-mdpi\\listview_chat_bg_right_new.9.png"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "G:\\Project\\manxiang\\easeui\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\delete.png",
+        "source": "G:\\Project\\manxiang\\easeui\\src\\main\\res\\drawable-mdpi\\delete.png"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_left.png",
+        "source": "G:\\Project\\manxiang\\easeui\\src\\main\\res\\drawable-mdpi\\icon_left.png"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\wg_header_back.png",
+        "source": "G:\\Project\\manxiang\\easeui\\src\\main\\res\\drawable-mdpi\\wg_header_back.png"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ease_default_avatar.png",
+        "source": "G:\\Project\\manxiang\\easeui\\src\\main\\res\\drawable-mdpi\\ease_default_avatar.png"
+    }
+]

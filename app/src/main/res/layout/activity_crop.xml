@@ -1,0 +1,65 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagecrop="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/crop_layout"
+        android:layout_above="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        >
+        <com.naver.android.helloyako.imagecrop.view.ImageCropView
+
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            />
+        <!--
+         imagecrop:setInnerGridMode="on"
+            imagecrop:gridInnerStroke="1dp"
+            imagecrop:gridInnerColor="#00000000"
+            imagecrop:setOuterGridMode="on"
+            imagecrop:gridOuterStroke="1dp"
+            imagecrop:gridOuterColor="#ffffff"
+        -->
+    </FrameLayout>
+    <RelativeLayout
+        android:id="@+id/btn_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:background="#a0000000"
+        android:gravity="center">
+        <Button
+            android:id="@+id/cancel"
+            android:text="取消"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/font_white"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@color/transparent"
+            android:layout_alignParentLeft="true"
+            />
+        <Button
+            android:id="@+id/crop_btn"
+            android:text="选取"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/font_white"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/transparent"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

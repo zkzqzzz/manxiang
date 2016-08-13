@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_page"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/painter_service_tabs"
+        android:layout_below="@+id/_line"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/bottom_border"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <RadioButton
+            android:id="@+id/desc_radio"
+            android:text="图文详情"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/common_one_rank_font"
+            android:textSize="@dimen/zhao_radio_txt_size_2"
+            android:background="@drawable/search_radiobutton_bg"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/comment_radio"
+            android:text="评价"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/common_one_rank_font"
+            android:textSize="@dimen/zhao_radio_txt_size_2"
+            android:background="@drawable/search_radiobutton_bg"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+
+    <com.houg.manxiang.ui.CustomViewPager
+        android:id="@+id/painter_service_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:scrollbars="none" />
+
+</LinearLayout>

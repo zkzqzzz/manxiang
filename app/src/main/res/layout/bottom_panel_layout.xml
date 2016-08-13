@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.demo.zk.manxiang.ui.BottomControlPanel
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_panel_height"
+    android:layout_alignParentBottom="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@color/bg_white"
+    >
+
+        <com.demo.zk.manxiang.ui.CustomButton
+            android:id="@+id/guang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.demo.zk.manxiang.ui.CustomButton
+            android:id="@+id/find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.demo.zk.manxiang.ui.CustomButton
+            android:id="@+id/mine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+</com.demo.zk.manxiang.ui.BottomControlPanel>
+

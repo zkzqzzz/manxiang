@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include android:id="@+id/header_layout" layout="@layout/wg_mine_header" />
+
+    <EditText
+        android:id="@+id/reason"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18"
+        android:layout_marginTop="@dimen/wg_item_distance_18"
+        android:layout_weight="1"
+        android:background="@drawable/gay_textview_border"
+        android:gravity="left"
+        android:hint="请输入您的宝贵意见。"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="@color/wg_font_1_black"
+        android:textColorHint="@color/wg_font_2_description"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="160dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/repassword"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/wg_item_distance_14"
+        android:layout_marginTop="@dimen/wg_item_distance_14"
+        android:background="@drawable/wg_drawable_evaluate_solid_bg"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_font"
+        android:textSize="@dimen/wg_font_15" />
+</LinearLayout>

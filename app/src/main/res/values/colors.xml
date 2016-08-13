@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="font_red">#f64141</color>
+    <color name="line_color_run_speed_13">#ff2942</color>
+    <color name="font_white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_1">#10000000</color>
+    <color name="transparent_gudie">#d0000000</color>
+    <color name="transparent_e">#e0000000</color>
+    <color name="transparent_painter">#30000000</color>
+    <color name="transparent_dialog">#00000000</color>
+    <color name="title_header_bg">#f64141</color>
+    <color name="btn_bg">#f64141</color>
+    <color name="title_font">#ffffff</color>
+    <color name="btn_font">#ffffff</color>
+    <color name="input_solid_red">#f64141</color>
+    <color name="input_text_black">#000000</color>
+    <color name="mine_order_btn_bg">#ff6e6f</color>
+    <color name="bottom_panel_layout_bg">#fafafa</color>
+    <color name="bottom_bar_bg">#333434</color>
+    <color name="miaosha_line">#eee</color>
+    <color name="miaosha_name_bg">#2c2c2c</color>
+    <color name="miaosha_txt_color_1">#666666</color>
+    <color name="miaosha_txt_color_2">#ababab</color>
+
+    <color name="bg_red">#f64141</color>
+    <color name="bg_gray">#999999</color>
+    <color name="bg_white">#ffffff</color>
+    <color name="input_bg">#e1e1e1</color>
+    <color name="input_hint_font">#999999</color>
+    <color name="view_line">#cacaca</color>
+    <color name="custom_btn_txt">#838383</color>
+    <color name="zhao_radio_txt">#666666</color>
+    <color name="zhao_radio_txt_selected">#ff0000</color>
+    <color name="zhao_view_line_1">#dddddd</color>
+    <color name="zhao_view_line_2">#ddd</color>
+    <color name="mine_txt">#666666</color>
+    <color name="tab_bg_red">#ff6e6f</color>
+    <color name="person_txt_font">#666666</color>
+    <color name="artist_details_txt_color_1">#666666</color>
+    <color name="artist_sign_color">#999999</color>
+    <color name="buy_service_txt_color_1">#666666</color>
+    <color name="buy_service_txt_border">#eeeeee</color>
+    <color name="order_txt_color_1">#666666</color>
+    <color name="order_txt_color_2">#999999</color>#bebebe
+    <color name="order_line_1">#e5e5e5</color>
+    <color name="message_txt_color_1">#666666</color>
+    <color name="message_txt_color_2">#999999</color>
+    <color name="dialog_txt_color">#6e6e6e</color>
+    <color name="dialog_line_color">#969696</color>
+    <color name="dialog_bg_color">#d9d9d9</color>
+    <color name="service_cat_name">#666666</color>
+
+    <color name="crop_bg">#77000000</color>
+    <color name="province_line_border">#C7C7C7</color>
+
+    <color name="drop_down_list_header_font_color">#000000</color>
+    <!-- drop down list header second font color -->
+    <color name="drop_down_list_header_second_font_color">#000000</color>
+    <!-- drop down list footer font color -->
+    <color name="drop_down_list_footer_font_color">#000000</color>
+
+    <color name="black">#000000</color>
+    <!--黑色 -->
+    <color name="btntextcolor">#000000</color>
+    <!--dialog中按钮字体颜色 -->
+    <color name="cancel">#262626</color>
+    <!--黑色 -->
+
+    <!--**********************WG**********************-->
+    <color name="wg_font_1_black">#363636</color>
+    <color name="wg_font_2_description">#7f7f7f</color>
+    <color name="Wg_font_3_gray">#ababab</color>
+    <color name="wg_toolbar_red">#d50d25</color>
+    <color name="wg_button_green">#3fc9b9</color>
+    <color name="wg_buy_orange">#f44d00</color>
+
+    <!--**********************WG**********************-->
+
+    <!--**********************common**********************-->
+    <color name="common_toolbar">#d50d25</color>
+    <color name="common_bt">#3fc9d9</color>
+    <color name="common_buy">#f44d00</color>
+    <color name="common_green">#5cb659</color>
+    <color name="common_one_rank_font">#363636</color>
+    <color name="common_desc_font">#7f7f7f</color>
+    <color name="common_desc_font_2">#3a3a3a</color>
+    <color name="common_search_hint_font">#ababab</color>
+    <color name="header_title_line">#aeaeae</color>
+
+    <!--专题*******************************-->
+    <color name="special_details_title">#4c4c4c</color>
+    <color name="special_details_content">#a1a1a1</color>
+    <color name="special_details_content1">#ababab</color>
+    <color name="imoocstyle">#CA0612</color>
+    <color name="color_ff">#F0F0F0</color>
+    <color name="color_00">#8A000000</color>
+    <color name="progress_bar_color">#ff2942</color>
+    <color name="special_line">#f3f3f3</color>
+
+    <!--秒杀*******************************-->
+    <color name="seckill_tab_select_bg">#d7051b</color>
+    <color name="seckill_tab_bg">#2d2d2d</color>
+    <color name="seckill_tab_select_font">#ffffff</color>
+    <color name="seckill_tab_font">#b3b3b3</color>
+    <color name="seckill_blue">#04b8f1</color>
+
+    <color name="txt_btn">#353535</color>
+    <color name="txt_btn_press">#ff2942</color>
+    <color name="wg_liner">#aeaeae</color>
+    <color name="divide_gray_color">#e8e8e8</color>
+    <color name="collection_selector">#f2f2f2</color>
+    <color name="wg_service_bg">#fcfcfc</color>
+    <color name="bg_shadow">#f2f2f2</color>
+</resources>

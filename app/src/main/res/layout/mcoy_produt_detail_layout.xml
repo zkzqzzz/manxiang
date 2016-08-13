@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.houg.manxiang.ui.McoyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/product_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:fadeScrollbars="true"
+    android:focusable="false"
+    android:scrollbars="none"
+    android:fillViewport="true" >
+
+    <include layout="@layout/painter_service_mid_layout" />
+
+</com.houg.manxiang.ui.McoyScrollView>

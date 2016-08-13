@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.houg.manxiang.ui.ListViewInScrollView
+        android:id="@+id/evaluateList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/moreComment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/wg_item_distance_45"
+        android:gravity="center"
+        android:text="查看更多评论"
+        android:textColor="@color/wg_font_2_description"
+        android:textSize="@dimen/wg_font_15" />
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/categoryAndEditLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/wg_item_distance_40"
+            android:background="#F3F3F3">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/wg_item_distance_18"
+                    android:text="服务分类"
+                    android:textColor="@color/wg_font_1_black"
+                    android:textSize="@dimen/wg_font_14"
+                    android:visibility="gone" />
+
+                <CheckBox
+                    android:id="@+id/categoryCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/tv_category"
+                    android:background="@color/transparent"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/wg_category_click_state"
+                    android:paddingLeft="@dimen/wg_item_distance_6"
+                    android:paddingRight="@dimen/wg_item_distance_6"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingLeft="@dimen/wg_item_distance_18"
+                android:paddingRight="@dimen/wg_item_distance_18"
+                android:text="编辑"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_14" />
+
+
+        </RelativeLayout>
+
+        <ImageView style="@style/mine_setting_item_iv_ae" />
+
+    </LinearLayout>
+
+    <com.github.captain_miao.recyclerviewutils.RefreshRecyclerView
+        android:id="@+id/rrv_service"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_view" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/categoryRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/wg_item_distance_120"
+        android:layout_below="@id/ll_view"
+        android:background="@color/bg_white"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_hide_cancel_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView style="@style/mine_setting_item_iv_ae" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="@dimen/wg_item_distance_140"
+            android:layout_height="32dp"
+            android:layout_marginBottom="@dimen/wg_item_distance_14"
+            android:layout_marginTop="@dimen/wg_item_distance_14"
+            android:background="@drawable/wg_drawable_evaluate_solid_bg"
+            android:text="取消收藏"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/wg_font_15" />
+
+        <ImageView style="@style/mine_setting_item_iv_ae" />
+
+    </LinearLayout>
+
+</RelativeLayout>

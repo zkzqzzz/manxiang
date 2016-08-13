@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include layout="@layout/wg_mine_header_1" />
+
+    <ImageView
+        android:id="@+id/down_image"
+        android:layout_width="@dimen/wg_item_distance_250"
+        android:layout_height="@dimen/wg_item_distance_250"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/wg_item_distance_18" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/wg_item_distance_100"
+        android:orientation="vertical">
+
+        <ImageView style="@style/mine_setting_item_iv_ae" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/wg_item_distance_14"
+            android:layout_marginTop="@dimen/wg_item_distance_14">
+
+            <CheckBox
+                android:id="@+id/check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/wg_item_distance_18"
+                android:background="@color/transparent"
+                android:button="@null"
+                android:drawableLeft="@drawable/wg_radio_button_sex_bg"
+                android:drawablePadding="@dimen/wg_item_distance_9"
+                android:text="原图"
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_15" />
+
+            <Button
+                android:id="@+id/bt_save"
+                android:layout_width="@dimen/wg_item_distance_140"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/wg_item_distance_18"
+                android:background="@drawable/wg_drawable_evaluate_solid_bg"
+                android:text="保存"
+                android:textColor="@color/font_white"
+                android:textSize="@dimen/wg_font_15" />
+        </RelativeLayout>
+
+        <ImageView style="@style/mine_setting_item_iv_ae" />
+    </LinearLayout>
+</LinearLayout>

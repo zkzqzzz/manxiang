@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header_layout"
+        layout="@layout/wg_mine_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_layout"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_setting_mine_data"
+            style="@style/mine_setting_item_rl">
+
+            <TextView
+                android:id="@+id/tv_setting_mine_data"
+                style="@style/mine_setting_item_tv"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:text="个人资料" />
+
+            <ImageView
+                android:id="@+id/iv_setting_mine_data"
+                style="@style/mine_setting_item_ib"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/wg_right_more" />
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <RelativeLayout
+            android:id="@+id/rl_setting_mine_account"
+            style="@style/mine_setting_item_rl">
+
+            <TextView
+                android:id="@+id/tv_setting_mine_account"
+                style="@style/mine_setting_item_tv"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:text="账户与安全" />
+
+            <ImageView
+                android:id="@+id/iv_setting_mine_account"
+                style="@style/mine_setting_item_ib"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/wg_right_more" />
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <RelativeLayout
+            android:id="@+id/rl_setting_mine_message"
+            style="@style/mine_setting_item_rl">
+
+            <TextView
+                android:id="@+id/tv_setting_mine_message"
+                style="@style/mine_setting_item_tv"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:text="消息" />
+
+            <ImageView
+                android:id="@+id/iv_setting_mine_message"
+                style="@style/mine_setting_item_ib"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/wg_right_more" />
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <RelativeLayout
+            android:id="@+id/rl_setting_mine_common"
+            style="@style/mine_setting_item_rl">
+
+            <TextView
+                android:id="@+id/tv_setting_mine_common"
+                style="@style/mine_setting_item_tv"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:text="通用" />
+
+            <ImageView
+                android:id="@+id/iv_setting_mine_common"
+                style="@style/mine_setting_item_ib"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/wg_right_more" />
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <RelativeLayout
+            android:id="@+id/rl_setting_mine_about"
+            style="@style/mine_setting_item_rl">
+
+            <TextView
+                android:id="@+id/tv_setting_mine_about"
+                style="@style/mine_setting_item_tv"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:text="关于漫像" />
+
+            <ImageView
+                android:id="@+id/iv_setting_mine_about"
+                style="@style/mine_setting_item_ib"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/wg_right_more" />
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+    </LinearLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/wg_item_distance_64" />
+
+    <Button
+        android:id="@+id/bt_setting_mine_exit"
+        android:layout_width="@dimen/wg_item_distance_140"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/wg_item_distance_14"
+        android:background="@drawable/wg_drawable_evaluate_solid_bg"
+        android:text="退出"
+        android:textColor="@color/font_white"
+        android:textSize="@dimen/wg_font_15" />
+
+</RelativeLayout>

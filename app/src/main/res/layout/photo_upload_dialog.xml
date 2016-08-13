@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/dialog_space_1" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_height"
+        android:paddingBottom="@dimen/dialog_space_1"
+        android:paddingTop="@dimen/dialog_space_1"
+        android:background="@color/dialog_bg_color"
+        android:text="设置头像"
+        android:textSize="@dimen/zhao_radio_txt_size_2"
+        android:textColor="@color/bottom_bar_bg"
+        android:gravity="center"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/dialog_line_color" />
+
+    <LinearLayout
+        android:layout_below="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dialog_bg_color"
+        android:padding="@dimen/operate_photo_btn_space_1"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+            <ImageButton
+                android:id="@+id/xiangc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/photo_xiangc_button"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/operate_photo_btn_space_3"
+                android:gravity="center"
+                android:text="相册"
+                android:textColor="@color/dialog_txt_color"
+                android:textSize="@dimen/zhao_radio_txt_size_2"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dialog_space_4"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+            <ImageButton
+                android:id="@+id/paiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/photo_paiz_button"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/operate_photo_btn_space_3"
+                android:gravity="center"
+                android:text="拍照"
+                android:textColor="@color/dialog_txt_color"
+                android:textSize="@dimen/zhao_radio_txt_size_2"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_height"
+        android:layout_marginTop="@dimen/dialog_space_1"
+        android:background="@color/bg_white"
+        android:text="取消"
+        android:textColor="@color/font_red"
+        android:textSize="@dimen/zhao_radio_txt_size_2"
+        android:gravity="center"
+        />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/root_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/bg_white"
+    >
+
+<include
+    android:id="@+id/header_layout"
+    layout="@layout/wg_mine_header" />
+
+<com.github.captain_miao.recyclerviewutils.RefreshRecyclerView
+    android:layout_below="@+id/header_layout"
+    android:id="@+id/pullRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</com.github.captain_miao.recyclerviewutils.RefreshRecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/watch_header"
+        layout="@layout/personal_center_be_artist"
+        />
+    <EditText
+        android:layout_below="@+id/watch_header"
+        android:id="@+id/search_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_input_height"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:paddingLeft="@dimen/login_input_padding"
+        android:paddingRight="@dimen/login_input_padding"
+        android:textSize="@dimen/input_size"
+        android:hint="  搜索画室内画品"
+        android:textColorHint="@color/common_search_hint_font"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:background="@drawable/rounded_edittext_2"
+        android:drawableStart="@mipmap/search_in_icon"
+        android:drawableLeft="@mipmap/search_in_icon"
+        android:editable="false"
+        />
+    <View
+        android:id="@+id/_line"
+        android:layout_below="@+id/search_btn"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/header_title_line" />
+    <include
+        android:layout_below="@+id/_line"
+        android:id="@+id/watch_content"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/watch_service_layout"
+       />
+
+</RelativeLayout>

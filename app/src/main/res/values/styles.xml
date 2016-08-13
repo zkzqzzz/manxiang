@@ -1,0 +1,256 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--  <painter_simple_list_item name="colorPrimary">@color/title_header_bg</painter_simple_list_item>
+          <painter_simple_list_item name="colorPrimaryDark">@color/title_header_bg</painter_simple_list_item>
+          <painter_simple_list_item name="colorAccent">@color/title_header_bg</painter_simple_list_item>-->
+    </style>
+
+    <style name="whiteTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="redTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- <painter_simple_list_item name="android:background">#f64141</painter_simple_list_item>-->
+    </style>
+
+    <style name="rounded_edittext_style" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/rounded_edittext_bg</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="rounded_edittext_style_2" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/rounded_edittext_bg_2</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+    <style name="drop_down_list_header_progress_bar_style">
+        <item name="android:minHeight">@dimen/drop_down_list_header_progress_bar_height</item>
+        <item name="android:maxHeight">@dimen/drop_down_list_header_progress_bar_height</item>
+    </style>
+
+    <style name="drop_down_list_footer_progress_bar_style">
+        <item name="android:minHeight">@dimen/drop_down_list_footer_progress_bar_height</item>
+        <item name="android:maxHeight">@dimen/drop_down_list_footer_progress_bar_height</item>
+    </style>
+
+    <style name="drop_down_list_header_font_style">
+        <item name="android:textColor">@color/drop_down_list_header_font_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="drop_down_list_header_second_font_style">
+        <item name="android:textColor">@color/drop_down_list_header_second_font_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="drop_down_list_footer_font_style">
+        <item name="android:textColor">@color/drop_down_list_footer_font_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="customTabLayout" parent="Widget.Design.TabLayout">
+        <!--<painter_simple_list_item name="tabGravity">fill</painter_simple_list_item>-->
+        <item name="tabMaxWidth">100dp</item>
+        <item name="tabIndicatorColor">@color/bg_red</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/customTabTextAppearance</item>
+        <item name="tabSelectedTextColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="customTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/miaosha_txt_color_2</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="artistInfoTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabMaxWidth">100dp</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabTextAppearance">@style/artistInfoTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/font_white</item>
+    </style>
+
+    <style name="artistInfoTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/font_white</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/photo_choose_bg</item>
+    </style>
+
+    <style name="whiteFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/bg_white</item>
+    </style>
+
+    <style name="main_menu_animstyle">
+        <item name="android:windowEnterAnimation">@anim/photo_dialog_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/photo_dialog_out_anim</item>
+    </style>
+
+    <style name="selectorDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--半透明-->
+        <item name="android:windowBackground">@color/font_white</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <style name="dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <!-- 加载框 -->
+    <style name="loadingDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="customRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_drawable_selector</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">20dp</item>
+    </style>
+
+    <style name="customRatingBar_1" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_drawable_selector_1</item>
+    </style>
+
+    <style name="customRatingBar_2" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_drawable_selector_2</item>
+        <item name="android:layout_height">12dp</item>
+    </style>
+
+    <style name="customRatingBar_3" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_drawable_selector_3</item>
+    </style>
+
+
+    <style name="guide_dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<painter_simple_list_item name="android:windowFullscreen">true</painter_simple_list_item>-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- <painter_simple_list_item name="android:windowAnimationStyle">@style/main_menu_animstyle</painter_simple_list_item>-->
+    </style>
+
+    <!-- 个人中心的我的订单中列表选项的TextView-->
+    <style name="personal_be_artist">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- 个人中心的我的订单中列表选项的TextView-->
+    <style name="personal_mine_form_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/wg_font_14</item>
+        <item name="android:textColor">@color/wg_font_1_black</item>
+        <item name="android:layout_marginTop">@dimen/wg_item_distance_5</item>
+    </style>
+    <!-- 个人中心的我的订单中列表选项的ImageButton-->
+    <style name="personal_mine_form_ib">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="mine_setting_item_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/wg_font_15</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textColor">@color/wg_font_1_black</item>
+    </style>
+    <style name="mine_setting_item_ib1">
+
+        <item name="android:background">@drawable/wg_function_unit_state</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="mine_setting_item_ib">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:background">@drawable/wg_function_unit_state</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+
+    <style name="right_arrow">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/wg_function_unit_state</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:scaleType">fitCenter</item>
+
+    </style>
+
+
+    <style name="mine_setting_item_iv_ae">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:src">#aeaeae</item>
+    </style>
+
+    <style name="mine_setting_item_iv_e8">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:src">#e8e8e8</item>
+    </style>
+
+    <style name="mine_setting_item_iv_f3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:src">#f3f3f3</item>
+    </style>
+
+    <style name="mine_setting_item_rl">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/wg_function_unit_state</item>
+        <item name="android:paddingLeft">@dimen/wg_item_distance_18</item>
+        <item name="android:paddingRight">@dimen/wg_item_distance_18</item>
+    </style>
+
+    <style name="wg_Self_RatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_drawable_selector_2</item>
+        <item name="android:numStars">5</item>
+        <item name="android:minHeight">@dimen/wg_item_distance_11</item>
+        <item name="android:maxHeight">@dimen/wg_item_distance_11</item>
+    </style>
+
+    <!--************逛逛**************-->
+    <!--TextAppearance.AppCompat.Widget.ActionBar.Title-->
+    <style name="MyTablayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">15sp</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+    </style>
+
+</resources>

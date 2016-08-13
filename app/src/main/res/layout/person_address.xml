@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/wg_header"
+        layout="@layout/wg_mine_header" />
+
+    <ImageView
+        android:id="@+id/wg_data_header_liner"
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_below="@id/wg_header" />
+
+    <ListView
+        android:id="@+id/myset_address_listView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="@null"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:id="@+id/re_add"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_white">
+
+        <Button
+            android:id="@+id/bt_add_new_address"
+            android:layout_width="@dimen/wg_item_distance_180"
+            android:layout_height="@dimen/wg_item_distance_36"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/wg_item_distance_14"
+            android:background="@drawable/wg_drawable_exchange_ok_bg"
+            android:text="新增收货地址"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/wg_font_17" />
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_above="@id/bt_add_new_address" />
+    </RelativeLayout>
+
+</LinearLayout>

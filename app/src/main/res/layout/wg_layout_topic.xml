@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.captain_miao.recyclerviewutils.RefreshRecyclerView
+        android:id="@+id/rrl_topic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_hide_cancel_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#55ffffff"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView style="@style/mine_setting_item_iv_ae" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="@dimen/wg_item_distance_180"
+            android:layout_height="@dimen/wg_item_distance_36"
+            android:layout_marginBottom="@dimen/wg_item_distance_14"
+            android:layout_marginTop="@dimen/wg_item_distance_14"
+            android:background="@drawable/wg_drawable_evaluate_solid_bg"
+            android:text="取消收藏"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/wg_font_17" />
+
+        <ImageView style="@style/mine_setting_item_iv_ae" />
+
+    </LinearLayout>
+
+</RelativeLayout>

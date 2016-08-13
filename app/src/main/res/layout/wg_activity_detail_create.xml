@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include android:id="@+id/header_layout" layout="@layout/wg_mine_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/wg_item_distance_18"
+                android:layout_marginTop="@dimen/wg_item_distance_18"
+                android:gravity="center_horizontal"
+                android:text="已付款等待作画"
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_15" />
+
+            <include layout="@layout/wg_combine_liner" />
+
+            <include layout="@layout/wg_order_address_yes" />
+
+            <include layout="@layout/wg_order_address_no" />
+
+            <include layout="@layout/wg_combine_liner" />
+
+            <include layout="@layout/wg_order_upload" />
+
+            <include layout="@layout/wg_combine_liner" />
+
+            <include layout="@layout/wg_order_detail" />
+
+            <include
+                android:id="@+id/postage_and_coupon"
+                layout="@layout/wg_combine_liner" />
+
+            <include layout="@layout/wg_order_postage_coupon" />
+
+            <include layout="@layout/wg_order_price" />
+
+            <include layout="@layout/wg_combine_liner" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/wg_item_distance_18">
+
+                <include layout="@layout/wg_order_sn" />
+
+                <include layout="@layout/wg_order_add_time" />
+
+                <include layout="@layout/wg_order_pay_time" />
+
+            </LinearLayout>
+
+            <ImageView style="@style/mine_setting_item_iv_ae" />
+
+            <include layout="@layout/wg_order_create_btn" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

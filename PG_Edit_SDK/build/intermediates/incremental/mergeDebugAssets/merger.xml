@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="G:\Project\manxiang\PG_Edit_SDK\src\main\assets"><file name="effects/sdkEffect.zip" path="G:\Project\manxiang\PG_Edit_SDK\src\main\assets\effects\sdkEffect.zip"/><file name="load_background.jpg" path="G:\Project\manxiang\PG_Edit_SDK\src\main\assets\load_background.jpg"/></source><source path="G:\Project\manxiang\PG_Edit_SDK\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="G:\Project\manxiang\PG_Edit_SDK\src\debug\assets"/></dataSet></merger>

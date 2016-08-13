@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_header_height"
+    android:gravity="center_vertical">
+
+    <ImageButton
+        android:id="@+id/ib_personal_header_back"
+        android:layout_width="@dimen/back_header_width"
+        android:layout_height="@dimen/back_header_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@color/transparent"
+        android:scaleType="center"
+        android:src="@mipmap/wg_header_back" />
+
+    <TextView
+        android:id="@+id/wg_title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:text="专题"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_txt_size"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="18dp"
+        android:background="@color/transparent"
+        android:scaleType="center"
+        android:src="@mipmap/wg_more_message_no" />
+</RelativeLayout>

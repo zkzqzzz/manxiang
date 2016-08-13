@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="none"
+    android:id="@+id/scroll_view"
+    android:background="@color/bg_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <WebView
+           android:id="@+id/web_view"
+           android:scrollbars="none"
+           android:layout_width="match_parent"
+           android:descendantFocusability="blocksDescendants"
+           android:layout_height="wrap_content"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <ImageView
+               style="@style/mine_setting_item_iv_f3"
+               android:layout_height="@dimen/wg_item_distance_6" />
+           <ImageView style="@style/mine_setting_item_iv_e8" />
+       </LinearLayout>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_horizontal"
+           android:paddingBottom="@dimen/wg_item_distance_9"
+           android:paddingTop="@dimen/wg_item_distance_9"
+           android:text="更多精选商品"
+           android:textColor="@color/wg_font_2_description"
+           android:textSize="@dimen/wg_font_15" />
+
+       <com.houg.manxiang.ui.CustomGridView
+           android:id="@+id/grid_view"
+           android:background="@color/bg_white"
+           android:minHeight="100dp"
+           android:numColumns="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+
+       <TextView
+           android:id="@+id/tv_special_detail_entry_gallery"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_horizontal"
+           android:paddingBottom="@dimen/wg_item_distance_14"
+           android:paddingTop="@dimen/wg_item_distance_14"
+           android:text="进TA的画室看看"
+           android:textColor="@color/wg_font_2_description"
+           android:textSize="@dimen/wg_font_15" />
+
+   </LinearLayout>
+
+</ScrollView>

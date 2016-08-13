@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wg_function_unit_state"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/iv_refund_item_liner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView style="@style/mine_setting_item_iv_e8"/>
+
+        <ImageView
+            style="@style/mine_setting_item_iv_f3"
+            android:layout_height="@dimen/wg_item_distance_6"/>
+
+        <ImageView style="@style/mine_setting_item_iv_e8"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_skill_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginTop="@dimen/wg_item_distance_9"
+        android:text="2016-04-09"
+        android:textColor="@color/wg_font_1_black"
+        android:textSize="@dimen/wg_font_15"/>
+
+    <TextView
+        android:id="@+id/tv_skill_remind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginTop="@dimen/wg_item_distance_9"
+        android:text="秒杀提醒"
+        android:textColor="@color/wg_font_1_black"
+        android:textSize="@dimen/wg_font_15"/>
+    <!-- <RelativeLayout
+         android:id="@+id/refund_layout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="@dimen/wg_item_distance_9"
+         android:layout_marginTop="@dimen/wg_item_distance_14"
+         android:paddingLeft="@dimen/wg_item_distance_18"
+         android:paddingRight="@dimen/wg_item_distance_18">
+
+         <ImageView
+             android:id="@+id/painter"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:src="@mipmap/refund_artist_pic" />
+
+
+
+         <ImageButton
+             style="@style/mine_setting_item_ib"
+             android:src="@mipmap/right_arrow" />
+     </RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/wg_item_distance_14"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginTop="@dimen/wg_item_distance_9"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/wg_item_distance_18">
+
+        <ImageView
+            android:id="@+id/iv_refund_icon"
+            android:layout_width="@dimen/wg_item_distance_100"
+            android:layout_height="@dimen/wg_item_distance_100"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/special003"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/wg_item_distance_6"
+            android:layout_toRightOf="@id/iv_refund_icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_skill_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="标题标题标题标题标题标题标题标题标题标题"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_15"/>
+
+            <TextView
+                android:id="@+id/tv_skill_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/wg_item_distance_9"
+                android:maxLines="2"
+                android:text="一二三四五六七八九一二三四五六七"
+                android:textColor="@color/Wg_font_3_gray"
+                android:textSize="@dimen/wg_font_15"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/wg_item_distance_18"
+        >
+
+        <ImageButton
+            android:id="@+id/img_go"
+            style="@style/mine_setting_item_ib"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:src="@mipmap/right_arrow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/img_go"
+            android:text="秒杀即将开始，快去抢"
+            android:textColor="@color/wg_button_green"
+            android:textSize="@dimen/wg_font_15"/>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginTop="@dimen/wg_item_distance_9"/>
+</LinearLayout>

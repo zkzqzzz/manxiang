@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_special_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/wg_gay_liner_border"/>
+    <TextView
+        android:id="@+id/iv_special_item_des"
+        android:layout_below="@id/iv_special_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123456789"/>
+</RelativeLayout>

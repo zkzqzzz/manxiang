@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_white"
+    >
+    <RelativeLayout
+        android:background="@color/special_line"
+        android:layout_width="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_height="40dp">
+        <ImageButton
+            android:id="@+id/watch_switch"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/wg_special_header_two" />
+        <RadioGroup
+            android:id="@+id/sort_radio_group"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <RadioButton
+                android:id="@+id/zonghe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:text="综合排序"
+                android:checked="true"
+                android:padding="10dp"
+                android:textColor="@color/paixu_radio_button"
+                android:textSize="@dimen/zhao_radio_txt_size_2" />
+            <RadioButton
+                android:id="@+id/xiaol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:button="@null"
+                android:gravity="center"
+                android:text="销量"
+                android:textColor="@color/paixu_radio_button"
+                android:padding="10dp"
+                android:textSize="@dimen/zhao_radio_txt_size_2" />
+            <RadioButton
+                android:id="@+id/jiag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:button="@null"
+                android:gravity="center"
+                android:text="价格▼"
+                android:textColor="@color/paixu_radio_button"
+                android:padding="10dp"
+                android:textSize="@dimen/zhao_radio_txt_size_2" />
+            <RadioButton
+                android:id="@+id/pingj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:button="@null"
+                android:gravity="center"
+                android:text="评价"
+                android:textColor="@color/paixu_radio_button"
+                android:padding="10dp"
+                android:textSize="@dimen/zhao_radio_txt_size_2" />
+        </RadioGroup>
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/browse_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
+
+

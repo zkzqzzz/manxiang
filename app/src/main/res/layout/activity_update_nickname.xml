@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <include android:id="@+id/regist_header"
+       layout="@layout/title_header_layout_2"
+       />
+
+    <EditText
+        android:id="@+id/nickname"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_input_height"
+        android:layout_marginLeft="@dimen/login_logo_h_margin"
+        android:layout_marginRight="@dimen/login_logo_h_margin"
+        android:paddingLeft="@dimen/regist_input_padding"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/input_size"
+        android:hint="最多8位汉字、字母或数字"
+        android:textColor="@color/input_text_black"
+        style="@style/rounded_edittext_style_2"
+        android:singleLine="true"
+        />
+
+    <Button
+        android:id="@+id/save"
+        android:text="@string/save"
+        android:layout_below="@+id/repassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_input_height"
+        android:layout_marginLeft="@dimen/login_logo_h_margin"
+        android:layout_marginRight="@dimen/login_logo_h_margin"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button_bg"
+        android:textSize="@dimen/btn_txt_size"
+        android:textColor="@color/btn_font"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>

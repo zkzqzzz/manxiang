@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.demo.zk.manxiang"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+    useLibrary 'org.apache.http.legacy'
+
+}
+allprojects {
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:multidex:1.0.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    //一些需要的style支持包
+    compile 'com.android.support:design:23.0.0'
+    compile 'com.etsy.android.grid:library:1.0.3'
+    compile files('libs/SwipeMenuListView.jar')
+    compile 'me.iwf.photopicker:PhotoPicker:0.1.8'
+    compile 'com.commit451:PhotoView:1.2.4'
+    compile files('libs/alipaySDK-20151014.jar')
+    compile files('libs/SocialSDK_QQZone_1.jar')
+    compile files('libs/SocialSDK_QQZone_2.jar')
+    compile files('libs/SocialSDK_QQZone_3.jar')
+    compile files('libs/SocialSDK_Sina.jar')
+    compile files('libs/SocialSDK_sms.jar')
+    compile files('libs/SocialSDK_WeiXin_1.jar')
+    compile files('libs/SocialSDK_WeiXin_2.jar')
+    compile files('libs/umeng_social_sdk.jar')
+    compile files('libs/umeng-analytics-v5.5.3.jar')
+    compile files('libs/httpmime-4.1.3.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    //环信SDK的UI
+    compile project(':easeui')
+    //下拉刷新
+    compile project(':SwipeRefreshAndLoadMore')
+    //和进度条差不多 Android的ProgressHUD，多种加载效果。类似于ios中的MBProgressHUD, SVProgressHUD。
+    compile project(':kprogresshud')
+    //相机相片编辑360
+/*    compile(project(':PG_Edit_SDK')) {
+        exclude group: 'com.nostra13.universalimageloader.cache.disc.DiskCache', module: 'PG_Edit_SDK'
+    }*/
+}

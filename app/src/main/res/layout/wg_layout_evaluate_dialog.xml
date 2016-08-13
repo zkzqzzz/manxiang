@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:minWidth="300dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/wg_item_distance_18"
+        android:text="谢谢评价"
+        android:textColor="@color/wg_font_1_black"
+        android:textSize="@dimen/wg_font_15" />
+
+    <ImageView style="@style/mine_setting_item_iv_ae" />
+
+    <Button
+        android:id="@+id/bt_look_evaluate"
+        android:layout_width="@dimen/wg_item_distance_140"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/wg_item_distance_18"
+        android:background="@drawable/wg_drawable_evaluate_solid_bg"
+        android:text="查看评价"
+        android:textColor="@color/font_white"
+        android:textSize="@dimen/wg_font_15" />
+</LinearLayout>

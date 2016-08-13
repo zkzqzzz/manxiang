@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/service_image"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@color/transparent"
+        android:scaleType="fitXY"
+         />
+
+    <TextView
+        android:id="@+id/service_name"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:lines="2"
+        android:gravity="bottom"
+        android:textColor="@color/wg_font_1_black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/service_price"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+       android:textColor="#d20414"
+        android:textSize="13sp" />
+
+</LinearLayout>

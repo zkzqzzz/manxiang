@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.0'
+
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:23.0.1'
+    provided files('libs/universal-image-loader-1.9.4.jar')
+    //compile files('libs/PG_Effect_SDK.jar')
+    //compile files('libs/bigdata.jar')
+    compile files('libs/PG_Edit_Base_SDK.jar')
+}

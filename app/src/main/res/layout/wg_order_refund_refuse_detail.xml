@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include layout="@layout/wg_combine_liner" />
+
+    <include layout="@layout/wg_order_refund_header2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#f3f3f3"
+        android:gravity="center"
+        android:paddingBottom="@dimen/wg_item_distance_18"
+        android:paddingTop="@dimen/wg_item_distance_18"
+        android:text="协商记录"
+        android:textColor="@color/wg_font_2_description"
+        android:textSize="@dimen/wg_font_15" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/wg_item_distance_18"
+        android:layout_marginTop="@dimen/wg_item_distance_18">
+
+        <TextView
+            style="@style/mine_setting_item_tv"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:text="画家"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_15" />
+
+        <TextView
+            android:id="@+id/painter_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/wg_item_distance_18"
+            android:text="2016-01-31  10:30:03"
+            android:textColor="@color/wg_font_2_description"
+            android:textSize="@dimen/wg_font_13" />
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/painter_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="@dimen/wg_item_distance_9"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginTop="@dimen/wg_item_distance_9"
+            android:background="@color/transparent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/default_header_icon"
+            app:riv_corner_radius="45dp" />
+
+        <TextView
+            android:id="@+id/painter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/wg_item_distance_9"
+            android:layout_toRightOf="@id/painter_img"
+            android:text="爱因斯坦"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/wg_item_distance_18"
+            android:text="不同意退款申请"
+            android:textColor="@color/font_red"
+            android:textSize="@dimen/wg_font_13" />
+
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+    <TextView
+        android:id="@+id/painter_reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/wg_item_distance_14"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18"
+        android:layout_marginTop="@dimen/wg_item_distance_14"
+        android:minLines="10"
+        android:text="退款申请达成。全额退款。"
+        android:textColor="@color/wg_font_2_description"
+        android:textSize="@dimen/wg_item_distance_12" />
+
+    <include layout="@layout/wg_combine_liner" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/wg_item_distance_18"
+        android:layout_marginTop="@dimen/wg_item_distance_18">
+
+        <TextView
+            style="@style/mine_setting_item_tv"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:text="自己"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_15" />
+
+        <TextView
+            android:id="@+id/user_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/wg_item_distance_18"
+            android:text="2016-01-31  10:30:03"
+            android:textColor="@color/wg_font_2_description"
+            android:textSize="@dimen/wg_font_13" />
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/user_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/wg_item_distance_9"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginTop="@dimen/wg_item_distance_9"
+            android:background="@color/transparent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/default_header_icon"
+            app:riv_corner_radius="45dp" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/wg_item_distance_9"
+            android:layout_toRightOf="@id/user_img"
+            android:text="无聊军团"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_13" />
+
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+    <TextView
+        android:id="@+id/user_reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18"
+        android:layout_marginTop="@dimen/wg_item_distance_14"
+        android:minLines="10"
+        android:text="画得不像。"
+        android:textColor="@color/wg_font_2_description"
+        android:textSize="@dimen/wg_font_12" />
+
+    <ImageView style="@style/mine_setting_item_iv_ae" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/wg_item_distance_14"
+        android:layout_marginTop="@dimen/wg_item_distance_14"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/apply_refund"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18"
+            android:layout_weight="1"
+            android:background="@drawable/wg_drawable_exchange_dialog_white_bg"
+            android:text="再次申请退款"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_15" />
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18"
+            android:layout_weight="1"
+            android:background="@drawable/wg_drawable_evaluate_solid_bg"
+            android:text="客服介入"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/wg_font_15" />
+
+    </LinearLayout>
+
+    <ImageView style="@style/mine_setting_item_iv_ae" />
+
+</LinearLayout>

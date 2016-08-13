@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="300dp"
+    android:orientation="vertical"
+    android:padding="@dimen/wg_item_distance_18">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/wg_item_distance_18"
+        android:text="修改性别"
+        android:textColor="@color/wg_font_1_black"
+        android:textSize="@dimen/wg_font_15" />
+
+    <ImageView style="@style/mine_setting_item_iv_ae" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/wg_item_distance_18"
+            android:background="@color/transparent"
+            android:button="@null"
+            android:drawableRight="@drawable/wg_radio_button_sex_bg"
+            android:text="男"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_15" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/wg_item_distance_18"
+            android:background="@color/transparent"
+            android:button="@null"
+            android:drawableRight="@drawable/wg_radio_button_sex_bg"
+            android:text="女"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_15" />
+
+    </RadioGroup>
+
+</LinearLayout>

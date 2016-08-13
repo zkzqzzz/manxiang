@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <include layout="@layout/title_header_layout_4"/>
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@mipmap/login_logo"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="@dimen/start_logo_margin"
+       />
+    <TextView
+        android:id="@+id/versionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="@dimen/about_version_size"
+        android:textColor="@color/font_red"
+        />
+
+    <Button
+        android:id="@+id/praise"
+        android:text="给个好评吧"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_input_height"
+        android:layout_marginLeft="@dimen/login_logo_h_margin"
+        android:layout_marginRight="@dimen/login_logo_h_margin"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_button_bg"
+        android:textSize="@dimen/btn_txt_size"
+        android:textColor="@color/btn_font"
+        android:textAllCaps="false"
+        />
+</LinearLayout>

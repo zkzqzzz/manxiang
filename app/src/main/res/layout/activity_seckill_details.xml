@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    >
+    <include
+        android:id="@+id/seckill_details_header"
+        layout="@layout/wg_mine_header"
+        />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/seckill_details_header"
+        android:layout_above="@+id/seckill_details_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+
+           <include layout="@layout/seckill_list_header"/>
+
+           <com.houg.manxiang.ui.BannerSlideShowView
+               android:id="@+id/slide_view"
+               android:layout_width="match_parent"
+               android:layout_height="300dp">
+           </com.houg.manxiang.ui.BannerSlideShowView>
+
+           <TextView
+               android:text="全国人大常委会副委员长沈跃跃"
+               android:id="@+id/service_name"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:lines="2"
+               android:textColor="@color/common_one_rank_font"
+               android:textSize="15sp"
+               />
+           <TextView
+               android:text="全国人大常委会副委员长沈跃跃全国人大常委会副委员长沈跃跃"
+               android:id="@+id/service_grief"
+               android:layout_toRightOf="@+id/img_layout"
+               android:layout_below="@+id/service_name"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:singleLine="true"
+               android:lines="1"
+               android:textColor="@color/common_desc_font"
+               android:textSize="14sp"
+               />
+           <RelativeLayout android:padding="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+               android:layout_marginBottom="20dp"
+               >
+               <TextView
+                   android:text="￥: 399.00"
+                   android:id="@+id/service_price"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:gravity="center_vertical"
+                   android:textColor="@color/common_buy"
+                   android:textSize="17sp"
+                   />
+               <TextView
+                   android:text="原价:"
+                   android:textColor="@color/common_desc_font"
+                   android:textSize="14sp"
+                   android:id="@+id/market_price_title"
+                   android:layout_below="@+id/service_price"
+                   android:gravity="center_vertical"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+               <TextView
+                   android:text="￥999.00"
+                   android:textColor="@color/common_desc_font"
+                   android:textSize="14sp"
+                   android:id="@+id/market_price"
+                   android:layout_below="@+id/service_price"
+                   android:layout_toRightOf="@+id/market_price_title"
+                   android:layout_width="wrap_content"
+                   android:gravity="center_vertical"
+                   android:layout_height="20dp" />
+               <TextView
+                   android:text="还剩3个"
+                   android:id="@+id/service_num"
+                   android:layout_below="@+id/service_price"
+                   android:layout_alignParentRight="true"
+                   android:layout_width="wrap_content"
+                   android:layout_height="20dp"
+                   android:gravity="center_vertical"
+                   android:textColor="@color/common_buy"
+                   android:textSize="14sp"
+                   />
+           </RelativeLayout>
+
+       </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:id="@+id/seckill_details_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <View
+            android:id="@+id/seckill_details_line"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/header_title_line" />
+        <Button
+            android:id="@+id/seckill"
+            android:layout_centerInParent="true"
+            android:text="立即抢"
+            android:textSize="15sp"
+            android:textColor="@color/font_white"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_button_bg"
+            />
+    </RelativeLayout>
+</RelativeLayout>

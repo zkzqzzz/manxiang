@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/wg_mine_header_2" />
+
+    <RelativeLayout
+        android:id="@+id/mid_layout"
+        android:layout_above="@+id/line"
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/exchange_face" />
+
+       <TextView
+            android:id="@+id/tv_exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:text="漫像兑换码"
+            android:textColor="@color/font_white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/et_exchange_input_id"
+            android:layout_width="@dimen/wg_item_distance_250"
+            android:layout_height="@dimen/wg_item_distance_45"
+            android:layout_below="@+id/tv_exchange"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/wg_drawable_exchange_input_bg"
+            android:gravity="center"
+            android:hint="请输入12位兑换码"
+            android:padding="@dimen/wg_item_distance_9"
+            android:textColorHint="@color/bg_gray"
+            android:textSize="@dimen/wg_font_17" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_above="@+id/bt_exchange_ok"
+        android:id="@+id/line"
+        style="@style/mine_setting_item_iv_ae"
+         />
+    <Button
+        android:id="@+id/bt_exchange_ok"
+        android:layout_width="@dimen/wg_item_distance_180"
+        android:layout_height="@dimen/wg_item_distance_36"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/wg_item_distance_14"
+        android:background="@drawable/wg_drawable_exchange_ok_bg"
+        android:text="兑换"
+        android:textColor="@color/font_white"
+        android:textSize="@dimen/wg_font_17" />
+
+
+
+
+</RelativeLayout>

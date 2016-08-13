@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:id="@+id/tv_personal_exchanging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/wg_item_distance_18"
+        android:text="即将兑换"
+        android:textColor="@color/wg_font_1_black"
+        android:textSize="@dimen/wg_font_20" />
+
+    <ImageView
+        android:id="@+id/iv_personal_exchange"
+        android:layout_width="@dimen/wg_item_distance_140"
+        android:scaleType="fitCenter"
+        android:layout_height="@dimen/wg_item_distance_140"
+        android:layout_below="@id/tv_personal_exchanging"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/wg_item_distance_14" />
+
+    <TextView
+        android:id="@+id/tv_personal_exchanging_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_personal_exchange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/wg_item_distance_10"
+        android:gravity="center_horizontal"
+        android:maxWidth="@dimen/wg_item_distance_140"
+        android:maxLines="2"
+        android:textColor="@color/wg_font_2_description"
+        android:textSize="@dimen/wg_font_13" />
+
+    <TextView
+        android:id="@+id/tv_personal_exchanging_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_personal_exchanging_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/wg_item_distance_10"
+        android:text="￥00.00"
+        android:textColor="@color/font_red"
+        android:textSize="@dimen/wg_font_17" />
+
+    <ImageView
+        android:id="@+id/iv_personal_exchanging_liner"
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_below="@id/tv_personal_exchanging_price"
+        android:layout_marginTop="@dimen/wg_item_distance_9"
+        android:src="@drawable/wg_gay_liner_border" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_personal_exchanging_liner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/wg_item_distance_14"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18"
+        android:layout_marginTop="@dimen/wg_item_distance_14"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_personal_exchanging_cancel"
+            android:layout_width="@dimen/wg_item_distance_120"
+            android:layout_height="@dimen/wg_item_distance_36"
+            android:background="@drawable/wg_drawable_exchange_dialog_white_bg"
+            android:text="取消"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/bt_personal_exchanging_ok"
+            android:layout_width="@dimen/wg_item_distance_120"
+            android:layout_height="@dimen/wg_item_distance_36"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:background="@drawable/wg_drawable_exchange_ok_bg"
+            android:text="确认兑换"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/wg_font_17" />
+    </LinearLayout>
+
+</RelativeLayout>

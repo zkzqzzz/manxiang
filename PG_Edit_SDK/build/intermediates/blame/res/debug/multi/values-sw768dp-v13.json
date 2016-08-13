@@ -1,0 +1,121 @@
+[
+    {
+        "outputFile": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\values-sw768dp-v13\\values-sw768dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 70,
+                    "endOffset": 121
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\values-sw768dp\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 70,
+                        "endOffset": 123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 126,
+                    "endColumn": 60,
+                    "endOffset": 182
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\values-sw768dp\\pg_sdk_edit_dimen.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 184,
+                        "endColumn": 60,
+                        "endOffset": 240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 187,
+                    "endColumn": 68,
+                    "endOffset": 251
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\values-sw768dp\\pg_sdk_edit_dimen.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 312,
+                        "endColumn": 68,
+                        "endOffset": 376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 256,
+                    "endColumn": 60,
+                    "endOffset": 312
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\values-sw768dp\\pg_sdk_edit_dimen.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 248,
+                        "endColumn": 60,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 317,
+                    "endColumn": 57,
+                    "endOffset": 370
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\values-sw768dp\\pg_sdk_edit_dimen.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 57,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 375,
+                    "endColumn": 60,
+                    "endOffset": 431
+                },
+                "from": {
+                    "file": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\values-sw768dp\\pg_sdk_edit_dimen.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 120,
+                        "endColumn": 60,
+                        "endOffset": 176
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sort_radio_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    >
+   <ScrollView
+       android:layout_above="@+id/bottom"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:orientation="vertical"
+           android:paddingBottom="10dp"
+           android:gravity="center_horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <LinearLayout
+               android:gravity="center"
+               android:orientation="horizontal"
+               android:layout_marginTop="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:text="价格区间(元)"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#353535"
+                   android:textSize="14sp"
+                   android:gravity="center"
+                   />
+               <EditText
+                   android:id="@+id/begin_price"
+                   android:layout_width="70dp"
+                   android:layout_height="25dp"
+                   android:paddingLeft = "10dp"
+                   android:paddingRight = "10dp"
+                   android:layout_marginLeft="10dp"
+                   android:textSize="14sp"
+                   android:gravity="center"
+                   android:textColor="#353535"
+                   android:background="@drawable/rounded_edittext_3"
+                   android:inputType="number"
+                   />
+               <TextView
+                   android:text="-"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:textColor="#353535"
+                   android:textSize="14sp"
+                   android:gravity="center"
+                   />
+               <EditText
+                   android:id="@+id/end_price"
+                   android:layout_width="70dp"
+                   android:layout_height="25dp"
+                   android:paddingLeft = "10dp"
+                   android:paddingRight = "10dp"
+                   android:layout_marginLeft="10dp"
+                   android:textSize="14sp"
+                   android:gravity="center"
+                   android:textColor="#353535"
+                   android:background="@drawable/rounded_edittext_3"
+                   android:inputType="number"
+                   />
+           </LinearLayout>
+           <com.houg.manxiang.ui.PriceCheckBoxGroup
+               android:orientation="horizontal"
+               android:columnCount="3"
+               android:useDefaultMargins="true"
+               android:id="@+id/price_layout"
+               android:layout_marginTop="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <!-- 价格 -->
+           </com.houg.manxiang.ui.PriceCheckBoxGroup>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1px"
+               android:layout_marginTop="10dp"
+               android:background="@color/header_title_line" />
+           <TextView
+               android:text="折扣和服务"
+               android:textColor="#353535"
+               android:layout_marginTop="10dp"
+               android:textSize="15sp"
+               android:gravity="center"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+           <com.houg.manxiang.ui.ParamCheckBoxGroup
+               android:layout_marginTop="10dp"
+               android:orientation="horizontal"
+               android:columnCount="3"
+               android:useDefaultMargins="true"
+               android:id="@+id/discount_layout"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+           </com.houg.manxiang.ui.ParamCheckBoxGroup>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1px"
+               android:layout_marginTop="10dp"
+               android:background="@color/header_title_line" />
+           <com.houg.manxiang.ui.CategoryCheckBoxGroup
+               android:orientation="horizontal"
+               android:columnCount="3"
+               android:useDefaultMargins="true"
+               android:layout_marginTop="10dp"
+               android:id="@+id/cat_layout"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+           </com.houg.manxiang.ui.CategoryCheckBoxGroup >
+
+       </LinearLayout>
+   </ScrollView>
+   <LinearLayout
+       android:id="@+id/bottom"
+       android:padding="10dp"
+       android:layout_alignParentBottom="true"
+       android:orientation="horizontal"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:id="@+id/reset"
+           android:layout_width="100dp"
+           android:layout_height="30dp"
+           android:layout_gravity="center_horizontal"
+           android:background="@drawable/wg_drawable_exchange_dialog_white_bg"
+           android:text="重置"
+           android:textColor="@color/bg_gray"
+           android:textSize="14sp" />
+       <Button
+           android:id="@+id/ok"
+           android:layout_width="100dp"
+           android:layout_height="30dp"
+           android:layout_marginLeft="20dp"
+           android:layout_gravity="center_horizontal"
+           android:background="@drawable/wg_drawable_exchange_ok_bg"
+           android:text="确定"
+           android:textColor="@color/font_white"
+           android:textSize="14sp" />
+   </LinearLayout>
+</RelativeLayout>

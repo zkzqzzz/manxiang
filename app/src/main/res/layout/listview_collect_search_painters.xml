@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+    <ImageButton
+        android:visibility="gone"
+    android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_collect_topic"
+        android:background="@mipmap/uncheckmore"
+         />
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/cb_collect_topic"
+            android:id="@+id/iv_collect_painters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/refund_artist_pic"/>
+        <TextView
+            android:layout_toRightOf="@id/iv_collect_painters"
+            android:id="@+id/tv_collect_painters"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="爱因斯坦"
+            />
+
+
+</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/zhao_view_line_1" />
+</LinearLayout>

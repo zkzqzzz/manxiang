@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/personal_be_artist_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/personal_beartist_header"
+        layout="@layout/personal_center_be_artist" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/personal_center_be_artist_camera_icon"
+            style="@style/personal_be_artist"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="@color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/wg_mine__become_artist"
+            app:riv_corner_radius="100dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/wg_item_distance_18"
+            android:text="设置你的画家头像"
+            android:textColor="@color/wg_font_1_black"
+            android:textSize="@dimen/wg_font_14" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView style="@style/mine_setting_item_iv_ae" />
+
+        <EditText
+            android:id="@+id/nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="你的画家昵称"
+            android:padding="@dimen/wg_item_distance_14"
+            android:textColor="@color/wg_font_1_black"
+            android:textColorHint="@color/wg_font_2_description"
+            android:textSize="@dimen/wg_font_15" />
+
+        <ImageView
+            android:id="@+id/nickname_liner"
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="你的手机号码"
+            android:inputType="number"
+            android:padding="@dimen/wg_item_distance_14"
+            android:textColor="@color/wg_font_1_black"
+            android:textColorHint="@color/wg_font_2_description"
+            android:textSize="@dimen/wg_font_15" />
+
+        <ImageView
+            android:id="@+id/phone_liner"
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:hint="填写验证码"
+                android:inputType="number"
+                android:padding="@dimen/wg_item_distance_14"
+                android:textColor="@color/wg_font_1_black"
+                android:textColorHint="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_15" />
+
+            <Button
+                android:id="@+id/get_exchange_code"
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/wg_item_distance_18"
+                android:background="@drawable/personal_center_be_artist"
+                android:text="获取验证码"
+                android:textColor="@color/font_white"
+                android:textSize="@dimen/wg_font_15" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/code_liner"
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="用户密码"
+            android:inputType="textPassword"
+            android:padding="@dimen/wg_item_distance_14"
+            android:textColor="@color/wg_font_1_black"
+            android:textColorHint="@color/wg_font_2_description"
+            android:textSize="@dimen/wg_font_15" />
+
+        <ImageView
+            android:id="@+id/password_liner"
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <EditText
+            android:id="@+id/password_again"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="确认密码"
+            android:inputType="textPassword"
+            android:padding="@dimen/wg_item_distance_14"
+            android:textColor="@color/wg_font_1_black"
+            android:textColorHint="@color/wg_font_2_description"
+            android:textSize="@dimen/wg_font_15" />
+
+        <ImageView
+            android:id="@+id/password_again_liner"
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <EditText
+            android:id="@+id/describe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="一句话描述自己"
+            android:padding="@dimen/wg_item_distance_14"
+            android:textColor="@color/wg_font_1_black"
+            android:textColorHint="@color/wg_font_2_description"
+            android:textSize="@dimen/wg_font_15" />
+
+        <ImageView
+            android:id="@+id/describe_liner"
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <Button
+            android:id="@+id/immidiate_kt"
+            android:layout_width="140dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/wg_item_distance_14"
+            android:layout_marginTop="@dimen/wg_item_distance_14"
+            android:background="@drawable/personal_center_get_exchange"
+            android:text="立即开通"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/wg_font_15" />
+
+    </LinearLayout>
+
+</LinearLayout>

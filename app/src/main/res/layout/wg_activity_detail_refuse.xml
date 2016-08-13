@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include android:id="@+id/header_layout" layout="@layout/wg_mine_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/wg_order_refund_refuse" />
+
+            <include layout="@layout/wg_combine_liner" />
+
+            <include layout="@layout/wg_order_address_yes" />
+
+            <include layout="@layout/wg_order_address_no" />
+
+            <include layout="@layout/wg_combine_liner" />
+
+            <include layout="@layout/wg_order_upload" />
+
+            <include layout="@layout/wg_combine_liner" />
+
+            <include layout="@layout/wg_order_detail" />
+
+            <include layout="@layout/wg_combine_liner" />
+
+            <ImageView
+                style="@style/mine_setting_item_iv_ae"
+                android:layout_marginTop="@dimen/wg_item_distance_18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/wg_item_distance_14"
+                android:paddingLeft="@dimen/wg_item_distance_18"
+                android:paddingRight="@dimen/wg_item_distance_18"
+                android:paddingTop="@dimen/wg_item_distance_14">
+
+                <Button
+                    android:id="@+id/bt_refund_detail"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_marginRight="@dimen/wg_item_distance_9"
+                    android:layout_weight="1"
+                    android:background="@drawable/wg_drawable_exchange_dialog_white_bg"
+                    android:text="退款详情"
+                    android:textColor="@color/wg_font_1_black"
+                    android:textSize="@dimen/wg_font_15" />
+
+                <Button
+                    android:id="@+id/bt_service_entry"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="@dimen/wg_item_distance_9"
+                    android:layout_weight="1"
+                    android:background="@drawable/wg_drawable_evaluate_solid_bg"
+                    android:text="客服介入"
+                    android:textColor="@color/font_white"
+                    android:textSize="@dimen/wg_font_15" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include  android:id="@+id/header_layout" layout="@layout/wg_mine_header" />
+
+    <LinearLayout
+        android:id="@+id/activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wg_function_unit_state"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/wg_item_distance_18">
+
+        <RelativeLayout
+            android:layout_width="@dimen/wg_item_distance_35"
+            android:layout_height="@dimen/wg_item_distance_40">
+            <ImageView
+                android:id="@+id/activity_icon"
+                android:layout_width="@dimen/wg_item_distance_35"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@mipmap/wg_message_activity" />
+            <TextView
+                android:id="@+id/activity_unread_count"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/wg_message_count_bg"
+                android:gravity="center"
+                android:text="0"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/font_white"
+                android:textSize="9sp"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="漫像活动"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_15" />
+
+            <TextView
+                android:id="@+id/activity_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/wg_item_distance_9"
+                android:layout_marginTop="@dimen/wg_item_distance_9"
+                android:singleLine="true"
+                android:text="暂无消息"
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_14" />
+
+            <TextView
+                android:id="@+id/activity_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_13" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+    <LinearLayout
+        android:id="@+id/helper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wg_function_unit_state"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/wg_item_distance_18">
+
+        <RelativeLayout
+            android:layout_width="@dimen/wg_item_distance_35"
+            android:layout_height="@dimen/wg_item_distance_40">
+            <ImageView
+                android:id="@+id/helper_icon"
+                android:layout_width="@dimen/wg_item_distance_35"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@mipmap/wg_message_helper" />
+            <TextView
+                android:id="@+id/helper_unread_count"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/wg_message_count_bg"
+                android:gravity="center"
+                android:text="0"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/font_white"
+                android:textSize="9sp"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="漫像助手"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_15" />
+
+            <TextView
+                android:id="@+id/helper_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/wg_item_distance_9"
+                android:layout_marginTop="@dimen/wg_item_distance_9"
+                android:singleLine="true"
+                android:text="暂无消息"
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_14" />
+
+            <TextView
+                android:id="@+id/helper_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_13" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+    <LinearLayout
+        android:id="@+id/warm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wg_function_unit_state"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/wg_item_distance_18">
+
+        <RelativeLayout
+            android:layout_width="@dimen/wg_item_distance_35"
+            android:layout_height="@dimen/wg_item_distance_40">
+            <ImageView
+                android:id="@+id/warm_icon"
+                android:layout_width="@dimen/wg_item_distance_35"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@mipmap/wg_message_warm" />
+            <TextView
+                android:id="@+id/warm_unread_count"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/wg_message_count_bg"
+                android:gravity="center"
+                android:text="0"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/font_white"
+                android:textSize="9sp"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="定时提醒"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_15" />
+
+            <TextView
+                android:id="@+id/warm_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/wg_item_distance_9"
+                android:layout_marginTop="@dimen/wg_item_distance_9"
+                android:singleLine="true"
+                android:text="暂无消息"
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_14" />
+
+            <TextView
+                android:id="@+id/warm_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_13" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+    <LinearLayout
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wg_function_unit_state"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/wg_item_distance_18">
+
+        <RelativeLayout
+            android:layout_width="@dimen/wg_item_distance_35"
+            android:layout_height="@dimen/wg_item_distance_40">
+            <ImageView
+                android:id="@+id/call_icon"
+                android:layout_width="@dimen/wg_item_distance_35"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@mipmap/wg_message_call" />
+            <TextView
+                android:id="@+id/call_unread_count"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/wg_message_count_bg"
+                android:gravity="center"
+                android:text="0"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/font_white"
+                android:textSize="9sp"
+                android:visibility="gone"
+                 />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="客服来信"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_15" />
+
+            <TextView
+                android:id="@+id/call_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/wg_item_distance_9"
+                android:layout_marginTop="@dimen/wg_item_distance_9"
+                android:singleLine="true"
+                android:text="暂无消息"
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_14" />
+
+            <TextView
+                android:id="@+id/call_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wg_font_2_description"
+                android:textSize="@dimen/wg_font_13" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+        android:layout_marginLeft="@dimen/wg_item_distance_18"
+        android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+</LinearLayout>

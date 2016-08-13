@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/personal_beartist_header"
+        layout="@layout/personal_center_refund_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true" />
+
+    <ImageView style="@style/mine_setting_item_iv_ae" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="退款理由"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/reason"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/gay_textview_border"
+        android:gravity="left"
+        android:hint="请输入退款原因。"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="@color/input_text_black"
+        android:textColorHint="@color/input_hint_font"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="15sp" />
+
+    <ImageView style="@style/mine_setting_item_iv_ae" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/personal_center_refund"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:text="退款金额"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@id/personal_center_refund"
+            android:text="由于画作已完成发出，扣除10%"
+            android:textColor="@color/bg_gray"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:text="####"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageView style="@style/mine_setting_item_iv_ae" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="180dp"
+        android:layout_height="@dimen/login_input_height"
+        android:layout_below="@+id/repassword"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/personal_center_get_exchange"
+        android:text="提交申请"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_font"
+        android:textSize="@dimen/btn_txt_size" />
+
+
+</LinearLayout>

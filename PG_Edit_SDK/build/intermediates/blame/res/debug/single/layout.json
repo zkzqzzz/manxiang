@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_main.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_main.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\layout_effect_type_item.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\layout_effect_type_item.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\layout_effect_select_item.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\layout_effect_select_item.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_progress_layer.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_progress_layer.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\menu_item_big.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\menu_item_big.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_compare_pgglsurfaceview.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_compare_pgglsurfaceview.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_menu_with_icon_name_frame.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_menu_with_icon_name_frame.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_lighting_seekbar_layout.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_lighting_seekbar_layout.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_progress_dialog.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_progress_dialog.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\layout_effect_select_empty.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\layout_effect_select_empty.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\menu_item.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\menu_item.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_effect_menu_item.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_effect_menu_item.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_menu_with_icon_name.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_menu_with_icon_name.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_three_seekbar_layout.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_three_seekbar_layout.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\menu_item_with_value.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\menu_item_with_value.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_menu_item_with_value.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_menu_item_with_value.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_face_third_buttom_layout.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_face_third_buttom_layout.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\menu_item_big_with_padding.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\menu_item_big_with_padding.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_org_photo.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_org_photo.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_menu_with_icon.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_menu_with_icon.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_horizontal_layout.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_horizontal_layout.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_tiltshift_seekbar_layout.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_tiltshift_seekbar_layout.xml"
+    },
+    {
+        "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\layout\\pg_sdk_edit_seekbar_layout.xml",
+        "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\layout\\pg_sdk_edit_seekbar_layout.xml"
+    }
+]

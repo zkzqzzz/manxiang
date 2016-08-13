@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.demo.zk.manxiang">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!--<uses-permission android:name="android.permission.CALL_PHONE" />-->
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <!-- QQ、QQ空间所需权限 -->
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            ></activity>
+        <activity
+            android:name=".GuidePagerActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+
+        <activity android:name=".BaseActivity"/>
+
+        <activity android:name=".SpecialRecyclerDetailActivity"/>
+
+
+        <activity android:name=".MessageCenterActivity"/>
+        <activity android:name=".MessageWarmActivity"/>
+        <activity android:name=".wxpay.SeckillActivity"/>
+
+
+        //友盟
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="57ab20b2e0f55a5b420041e9" />
+        //渠道ID
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="baidu" />
+
+
+        //360相机配置
+        <meta-data
+            android:name="BD_APP_ID"
+            android:value="ea8d04692735bc1f"/>
+        <meta-data
+            android:name="BD_APP_SECRET"
+            android:value="vCGG9QZ94tcGxTjangCc_b_VuXwmfGd2"/>
+        <meta-data android:name="EDIT_SDK_KEY" android:value="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"/>
+        <activity
+            android:name="us.pinguo.edit.sdk.PGEditActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <service
+            android:name="us.pinguo.bigdata.BDUpService"
+            android:process=":bdupload">
+        </service>
+        <receiver android:name="us.pinguo.bigdata.BDAlarmReceiver">
+            <intent-filter>
+                <action android:name="bd_alarm"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

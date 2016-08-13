@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white">
+
+    <include
+        android:id="@+id/wg_header"
+        layout="@layout/wg_mine_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wg_header"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_data_mine_icon"
+            style="@style/mine_setting_item_rl">
+
+            <TextView
+                style="@style/mine_setting_item_tv"
+                android:text="漫像头像" />
+
+            <ImageView
+                android:id="@+id/iv_data_mine_right"
+                style="@style/mine_setting_item_ib"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/wg_right_more" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/iv_data_mine_icon"
+                style="@style/mine_setting_item_ib1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="false"
+                android:layout_marginBottom="@dimen/wg_item_distance_9"
+                android:layout_marginRight="@dimen/wg_item_distance_9"
+                android:layout_marginTop="@dimen/wg_item_distance_9"
+                android:layout_toLeftOf="@id/iv_data_mine_right"
+                android:scaleType="fitXY"
+                app:riv_corner_radius="100dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <RelativeLayout
+            android:id="@+id/rl_data_mine_nick_name"
+            style="@style/mine_setting_item_rl">
+
+            <TextView
+                style="@style/mine_setting_item_tv"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:text="漫像昵称" />
+
+            <ImageView
+                android:id="@+id/iv_data_mine_nick_name"
+                style="@style/mine_setting_item_ib"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/wg_right_more" />
+
+            <TextView
+                android:id="@+id/tv_data_mine_nick_name"
+                style="@style/mine_setting_item_tv"
+                android:layout_alignParentLeft="false"
+                android:layout_marginRight="@dimen/wg_item_distance_9"
+                android:layout_toLeftOf="@id/iv_data_mine_nick_name"
+                android:text="豆豆"
+                android:textColor="@color/wg_font_2_description" />
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <RelativeLayout
+            android:id="@+id/rl_data_mine_real_name"
+            style="@style/mine_setting_item_rl">
+
+            <TextView
+                style="@style/mine_setting_item_tv"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:text="真实姓名" />
+
+            <ImageButton
+                android:id="@+id/iv_data_mine_real_name"
+                style="@style/mine_setting_item_ib"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/wg_right_more" />
+
+            <TextView
+                android:id="@+id/tv_data_mine_real_name"
+                style="@style/mine_setting_item_tv"
+                android:layout_alignParentLeft="false"
+                android:layout_marginRight="@dimen/wg_item_distance_9"
+                android:layout_toLeftOf="@id/iv_data_mine_real_name"
+                android:text="豆豆"
+                android:textColor="@color/wg_font_2_description" />
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <RelativeLayout
+            android:id="@+id/rl_data_mine_sex"
+            style="@style/mine_setting_item_rl">
+
+            <TextView
+                style="@style/mine_setting_item_tv"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:text="性别" />
+
+            <ImageView
+                android:id="@+id/iv_data_mine_sex"
+                style="@style/mine_setting_item_ib"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/wg_right_more" />
+
+            <TextView
+                android:id="@+id/tv_data_mine_sex"
+                style="@style/mine_setting_item_tv"
+                android:layout_alignParentLeft="false"
+                android:layout_marginRight="@dimen/wg_item_distance_9"
+                android:layout_toLeftOf="@id/iv_data_mine_sex"
+                android:text="男"
+                android:textColor="@color/wg_font_2_description" />
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <RelativeLayout
+            android:id="@+id/rl_data_mine_birthday"
+            style="@style/mine_setting_item_rl">
+
+            <TextView
+                style="@style/mine_setting_item_tv"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:text="生日" />
+
+            <ImageView
+                android:id="@+id/ib_data_mine_birthday"
+                style="@style/mine_setting_item_ib"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/wg_right_more" />
+
+            <TextView
+                android:id="@+id/tv_data_mine_birthday"
+                style="@style/mine_setting_item_tv"
+                android:layout_alignParentLeft="false"
+                android:layout_marginRight="@dimen/wg_item_distance_9"
+                android:layout_toLeftOf="@id/ib_data_mine_birthday"
+                android:text="1992-02-02"
+                android:textColor="@color/wg_font_2_description" />
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+        <RelativeLayout
+            android:id="@+id/rl_data_mine_address"
+            style="@style/mine_setting_item_rl">
+
+            <TextView
+                style="@style/mine_setting_item_tv"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:text="我的发货/退货地址" />
+
+            <ImageView
+                android:id="@+id/ib_data_mine_address"
+                style="@style/mine_setting_item_ib"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginBottom="@dimen/wg_item_distance_14"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/wg_right_more" />
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_marginLeft="@dimen/wg_item_distance_18"
+            android:layout_marginRight="@dimen/wg_item_distance_18" />
+
+    </LinearLayout>
+
+</RelativeLayout>

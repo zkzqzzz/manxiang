@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:id="@+id/ll_collect_service"
+            android:layout_marginLeft="@dimen/wg_item_distance_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/iv_collect_service"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/default_ico_service"/>
+        </LinearLayout
+>
+
+        <LinearLayout
+            android:layout_toRightOf="@id/ll_collect_service"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="120dp">
+            <TextView
+                android:id="@+id/tv_collect_service_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:layout_marginTop="5dp"
+                android:maxEms="17"
+                android:text="标题标题标题标题标题标题标题标题标题标题"/>
+
+            <TextView
+                android:id="@+id/tv_collect_service_money"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/bg_red"
+                android:text="￥30.00"
+                android:textSize="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_collect_service_painter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/refund_artist_pic"/>
+            <TextView
+                android:layout_toRightOf="@id/iv_collect_service_painter"
+                android:id="@+id/tv_collect_service_name"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="爱因斯坦"
+                />
+            </RelativeLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+    <ImageView
+        android:layout_below="@+id/ll_refund_item"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@drawable/wg_gay_liner_border"/>
+    </RelativeLayout>
+

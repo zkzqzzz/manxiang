@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include android:id="@+id/header_layout" layout="@layout/wg_mine_header" />
+
+    <LinearLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wg_item_distance_45"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/edit_keyword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/wg_item_distance_9"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="@dimen/wg_item_distance_6"
+                    android:layout_marginTop="@dimen/wg_item_distance_9"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:editable="true"
+                    android:hint="输入关键词"
+                    android:paddingRight="@dimen/wg_item_distance_14"
+                    android:singleLine="true"
+                    android:textColor="@color/wg_font_2_description"
+                    android:textSize="@dimen/wg_font_15" />
+
+                <ImageButton
+                    android:id="@+id/clear_keyword"
+                    android:layout_width="@dimen/wg_item_distance_18"
+                    android:layout_height="@dimen/wg_item_distance_18"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/wg_item_distance_14"
+                    android:background="@color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/wg_clear_character"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/search_btn"
+                android:layout_width="@dimen/wg_item_distance_80"
+                android:layout_height="32dp"
+                android:layout_marginBottom="@dimen/wg_item_distance_9"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="@dimen/wg_item_distance_9"
+                android:background="@drawable/wg_drawable_evaluate_solid_bg"
+                android:text="搜订单"
+                android:textColor="@color/font_white"
+                android:textSize="@dimen/wg_font_15" />
+
+        </LinearLayout>
+
+        <ImageView style="@style/mine_setting_item_iv_ae" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/order_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

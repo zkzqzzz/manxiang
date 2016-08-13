@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/wg_item_distance_18"
+        android:gravity="center"
+        android:text="确认要删除该地址"
+        android:textColor="@color/wg_font_1_black"
+        android:textSize="@dimen/wg_font_17" />
+
+    <ImageView
+        style="@style/mine_setting_item_iv_ae"
+       android:layout_width="300dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/delete_address_confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/wg_function_unit_state"
+            android:gravity="center"
+            android:paddingBottom="@dimen/wg_item_distance_18"
+            android:paddingTop="@dimen/wg_item_distance_18">
+
+            <!--<ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:src="@mipmap/wg_change_icon_camera" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确认"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_17" />
+
+        </LinearLayout>
+
+        <ImageView
+            style="@style/mine_setting_item_iv_ae"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/delete_address_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/wg_function_unit_state"
+            android:gravity="center"
+            android:paddingBottom="@dimen/wg_item_distance_18"
+            android:paddingTop="@dimen/wg_item_distance_18">
+
+           <!-- <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:src="@mipmap/wg_change_icon_pic" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="取消"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_17" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

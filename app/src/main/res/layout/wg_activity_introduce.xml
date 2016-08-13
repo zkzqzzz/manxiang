@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_white"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include android:id="@+id/painter_header" layout="@layout/wg_mine_header" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/wg_item_distance_18">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/painter_icon"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/def_header"
+                    app:riv_corner_radius="100dp" />
+
+                <LinearLayout
+                    android:id="@+id/painter_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/wg_item_distance_6"
+                    android:layout_marginTop="@dimen/wg_item_distance_6"
+                    android:layout_toRightOf="@id/painter_icon"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="昵称"
+                        android:id="@+id/painter_nickname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/wg_font_1_black"
+                        android:textSize="@dimen/wg_font_15" />
+
+                    <TextView
+                        android:text="(擅长:)"
+                        android:id="@+id/painter_feature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/wg_font_2_description"
+                        android:textSize="@dimen/wg_font_13" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/painter_middle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/painter_name"
+                    android:layout_marginBottom="@dimen/wg_item_distance_6"
+                    android:layout_marginLeft="@dimen/wg_item_distance_6"
+                    android:layout_marginTop="@dimen/wg_item_distance_6"
+                    android:layout_toRightOf="@id/painter_icon">
+
+                    <RatingBar
+                        android:id="@+id/rate_bar"
+                        style="@style/customRatingBar_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="13dp"
+                        android:layout_centerVertical="true"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="0" />
+
+                    <Button
+                        android:id="@+id/painter_collect"
+                        android:layout_width="@dimen/wg_item_distance_60"
+                        android:layout_height="@dimen/wg_item_distance_30"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/wg_drawable_evaluate_solid_bg"
+                        android:text="收藏"
+                        android:textColor="@color/font_white"
+                        android:textSize="@dimen/wg_font_13" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/painter_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/painter_middle"
+                    android:layout_marginLeft="@dimen/wg_item_distance_6"
+                    android:layout_toRightOf="@id/painter_icon"
+                    android:textColor="@color/wg_font_2_description"
+                    android:textSize="@dimen/wg_font_13" />
+
+            </RelativeLayout>
+
+            <include layout="@layout/wg_combine_liner" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/wg_item_distance_18"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="画量："
+                    android:textColor="@color/wg_font_1_black"
+                    android:textSize="@dimen/wg_font_13" />
+
+                <TextView
+                    android:text="0"
+                    android:id="@+id/painter_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/font_red"
+                    android:textSize="@dimen/wg_font_13" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 副"
+                    android:textColor="@color/wg_font_1_black"
+                    android:textSize="@dimen/wg_font_13" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="0000-00-00"
+                android:id="@+id/painter_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/wg_item_distance_10"
+                android:layout_marginLeft="@dimen/wg_item_distance_18"
+                android:layout_marginTop="@dimen/wg_item_distance_6"
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_13" />
+
+            <include layout="@layout/wg_combine_liner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/wg_item_distance_18"
+                android:layout_marginTop="@dimen/wg_item_distance_14"
+                android:text="画室介绍："
+                android:textColor="@color/wg_font_1_black"
+                android:textSize="@dimen/wg_font_13" />
+
+            <WebView
+                android:id="@+id/painter_introduce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/wg_item_distance_18"
+                android:layout_marginRight="@dimen/wg_item_distance_18"
+                android:layout_marginTop="@dimen/wg_item_distance_6"
+                android:scrollbars="none"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
