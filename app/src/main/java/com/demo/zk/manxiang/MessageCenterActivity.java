@@ -15,6 +15,7 @@ import com.lidroid.xutils.view.annotation.ViewInject;
 /**
  * Created by Administrator on 2016/4/14.
  */
+//消息中心
 public class MessageCenterActivity extends BaseActivity{
 
     private static final String MESSAGE_CENTER = "消息中心";
@@ -100,13 +101,14 @@ public class MessageCenterActivity extends BaseActivity{
     }
 
     private void initEvent() {
+        //返回
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
             }
         });
-
+        //另一个菜单  more
         more.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -114,7 +116,7 @@ public class MessageCenterActivity extends BaseActivity{
                 popupMenu.showPopupWindow(headerLayout);
             }
         });
-
+        //蛮像活动
         activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -122,6 +124,7 @@ public class MessageCenterActivity extends BaseActivity{
                 startActivity(activity);
             }
         });
+        //蛮像助手
         helper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -144,7 +147,7 @@ public class MessageCenterActivity extends BaseActivity{
                 startActivity(helper);
             }
         });*/
-
+        //定时提醒
         warm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -160,6 +163,7 @@ public class MessageCenterActivity extends BaseActivity{
                 startActivity(call);
             }
         });*/
+        //客服来信
                 call.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -2,11 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    buildToolsVersion "23.0.0"
 
     defaultConfig {
         applicationId "com.demo.zk.manxiang"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
@@ -68,4 +68,6 @@ dependencies {
 /*    compile(project(':PG_Edit_SDK')) {
         exclude group: 'com.nostra13.universalimageloader.cache.disc.DiskCache', module: 'PG_Edit_SDK'
     }*/
+    compile project(path: ':pullRefreshLayout')
+    compile project(path: ':RecycleViewExtra')
 }

@@ -14,14 +14,28 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.baoyz.widget.PullRefreshLayout;
+import com.cundong.recyclerview.HeaderAndFooterRecyclerViewAdapter;
+import com.cundong.recyclerview.HeaderSpanSizeLookup;
+import com.cundong.recyclerview.RecyclerViewUtils;
+import com.cundong.recyclerview.EndlessRecyclerOnScrollListener;
+import com.demo.zk.manxiang.adapter.DividerItemDecorationForList;
+import com.demo.zk.manxiang.adapter.SpecialRecyclerDetailAdapter;
 import com.demo.zk.manxiang.base.RestAPI;
 import com.demo.zk.manxiang.domain.Banner;
 import com.demo.zk.manxiang.domain.PainterService;
 import com.demo.zk.manxiang.domain.SpecialDetail;
+import com.demo.zk.manxiang.domain.Status;
+import com.demo.zk.manxiang.presenter.SharePresenter;
+import com.demo.zk.manxiang.presenter.SpecialDetailPresenter;
+import com.demo.zk.manxiang.ui.BannerSlideShowView;
 import com.demo.zk.manxiang.ui.PopupMenu;
 import com.demo.zk.manxiang.utils.ImageUtils;
+import com.demo.zk.manxiang.utils.RecyclerViewStateUtils;
 import com.demo.zk.manxiang.utils.StringUtils;
-import com.github.captain_miao.recyclerviewutils.EndlessRecyclerOnScrollListener;
+import com.demo.zk.manxiang.utils.ThreadValues;
+import com.demo.zk.manxiang.view.ISpecialDetailView;
+import com.demo.zk.manxiang.widget.LoadingFooter;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ContentView;
 import com.lidroid.xutils.view.annotation.ViewInject;
@@ -33,22 +47,6 @@ import java.util.List;
 /**
  * Created by WG on 2016/3/30.
  */
-@ContentView(R.layout.wg_activity_special_detail)
-public class SpecialRecyclerDetailActivity extends BaseActivity  {
-    private static final String SPECIAL = "专题";
-
-    @ViewInject(R.id.wg_title_txt)
-    private TextView title;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        ViewUtils.inject(this);
-        title.setText(SPECIAL);
-
-    }
-}
-/*
 @ContentView(R.layout.wg_activity_special_detail)
 public class SpecialRecyclerDetailActivity extends BaseActivity implements ISpecialDetailView {
 
@@ -274,4 +272,4 @@ public class SpecialRecyclerDetailActivity extends BaseActivity implements ISpec
     }
 
 }
-*/
+

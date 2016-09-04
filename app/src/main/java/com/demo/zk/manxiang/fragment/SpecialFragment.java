@@ -103,7 +103,7 @@ public class SpecialFragment extends BaseFragment implements RefreshRecyclerView
                 break;
             case R.id.wg_right_btn:
                 Log.i(TAG, "弹出菜单");
-                //第一个false  是否有分享   第二个外部应用消息   第一true才考虑第二个
+                //第一个false  是否有分享   第二个判断是否在消息中心界面   来判断menu显示的内容
                 popupMenu = new PopupMenu(getContext(), false,false);
                 popupMenu.showPopupWindow(headerLayout);
                 break;

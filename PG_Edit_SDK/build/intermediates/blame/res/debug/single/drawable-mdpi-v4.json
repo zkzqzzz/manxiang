@@ -2,5 +2,9 @@
     {
         "merged": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "G:\\Project\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     }
 ]

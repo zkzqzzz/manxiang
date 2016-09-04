@@ -1,5 +1,352 @@
 [
     {
+        "outputFile": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 54,
+                        "endOffset": 105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 110,
+                    "endColumn": 45,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 110,
+                        "endColumn": 45,
+                        "endOffset": 151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 156,
+                    "endColumn": 50,
+                    "endOffset": 202
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 50,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 207,
+                    "endColumn": 56,
+                    "endOffset": 259
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endColumn": 56,
+                        "endOffset": 259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 264,
+                    "endColumn": 63,
+                    "endOffset": 323
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 264,
+                        "endColumn": 63,
+                        "endOffset": 323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 328,
+                    "endColumn": 68,
+                    "endOffset": 392
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 328,
+                        "endColumn": 68,
+                        "endOffset": 392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 397,
+                    "endColumn": 61,
+                    "endOffset": 454
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 397,
+                        "endColumn": 61,
+                        "endOffset": 454
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 459,
+                    "endColumn": 57,
+                    "endOffset": 512
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 459,
+                        "endColumn": 57,
+                        "endOffset": 512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 517,
+                    "endColumn": 71,
+                    "endOffset": 584
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 517,
+                        "endColumn": 71,
+                        "endOffset": 584
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 589,
+                    "endColumn": 52,
+                    "endOffset": 637
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 589,
+                        "endColumn": 52,
+                        "endOffset": 637
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 642,
+                    "endColumn": 66,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 642,
+                        "endColumn": 66,
+                        "endOffset": 704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 53,
+                    "endOffset": 758
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endColumn": 53,
+                        "endOffset": 758
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 763,
+                    "endColumn": 48,
+                    "endOffset": 807
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 763,
+                        "endColumn": 48,
+                        "endOffset": 807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 812,
+                    "endColumn": 50,
+                    "endOffset": 858
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 812,
+                        "endColumn": 50,
+                        "endOffset": 858
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 863,
+                    "endColumn": 51,
+                    "endOffset": 910
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 863,
+                        "endColumn": 51,
+                        "endOffset": 910
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 915,
+                    "endColumn": 49,
+                    "endOffset": 960
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 915,
+                        "endColumn": 49,
+                        "endOffset": 960
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 965,
+                    "endColumn": 55,
+                    "endOffset": 1016
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 965,
+                        "endColumn": 55,
+                        "endOffset": 1016
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1021,
+                    "endColumn": 51,
+                    "endOffset": 1068
+                },
+                "from": {
+                    "file": "G:\\AndroidProject\\manxiang\\PG_Edit_SDK\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1021,
+                        "endColumn": 51,
+                        "endOffset": 1068
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "G:\\Project\\manxiang\\PG_Edit_SDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
         "map": [
             {

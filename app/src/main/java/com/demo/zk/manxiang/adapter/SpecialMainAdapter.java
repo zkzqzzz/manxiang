@@ -16,8 +16,8 @@ import com.github.captain_miao.recyclerviewutils.BaseLoadMoreRecyclerAdapter;
 import com.github.captain_miao.recyclerviewutils.common.ClickableViewHolder;
 import com.github.captain_miao.recyclerviewutils.listener.OnRecyclerItemClickListener;
 
-import java.util.List;
 
+import java.util.List;
 
 /**
  * Created by Administrator on 2016/3/28.

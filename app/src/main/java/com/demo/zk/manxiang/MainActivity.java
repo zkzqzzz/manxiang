@@ -109,8 +109,6 @@ public class MainActivity extends BaseActivity implements BottomControlPanel.Bot
             bottomPanel.setBtnChecked(page);
             viewPager.setCurrentItem(page);
         }
-//        bottomPanel.setBtnChecked(page);
-//        viewPager.setCurrentItem(page);
     }
 
     @Override

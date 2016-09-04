@@ -28,10 +28,12 @@ import com.lidroid.xutils.http.ResponseInfo;
 import com.lidroid.xutils.http.callback.RequestCallBack;
 import com.lidroid.xutils.http.client.HttpRequest;
 
+import java.io.Serializable;
+
 /**
  * Created by houg on 2015/10/9.
  */
-public class SplashActivity extends Activity {
+public class SplashActivity extends Activity{
 
     private boolean first;
 

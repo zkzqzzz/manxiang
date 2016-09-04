@@ -21,7 +21,7 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:23.0.1'
-    provided files('libs/universal-image-loader-1.9.4.jar')
+    compile files('libs/universal-image-loader-1.9.4.jar')
     //compile files('libs/PG_Effect_SDK.jar')
     //compile files('libs/bigdata.jar')
     compile files('libs/PG_Edit_Base_SDK.jar')
