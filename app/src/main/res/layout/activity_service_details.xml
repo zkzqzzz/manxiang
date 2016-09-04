@@ -9,14 +9,14 @@
        android:id="@+id/painter_servcie_header"
        layout="@layout/wg_header_collection"/>
 
-    <com.houg.manxiang.ui.McoySnapPageLayout
+    <com.demo.zk.manxiang.ui.McoySnapPageLayout
         android:id="@+id/flipLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/bottom_line"
         android:scrollbars="none"
         android:layout_below="@id/painter_servcie_header" >
-    </com.houg.manxiang.ui.McoySnapPageLayout>
+    </com.demo.zk.manxiang.ui.McoySnapPageLayout>
 
     <View
         android:id="@+id/bottom_line"

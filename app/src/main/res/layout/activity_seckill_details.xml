@@ -25,11 +25,11 @@
 
            <include layout="@layout/seckill_list_header"/>
 
-           <com.houg.manxiang.ui.BannerSlideShowView
+           <com.demo.zkmanxiang.ui.BannerSlideShowView
                android:id="@+id/slide_view"
                android:layout_width="match_parent"
                android:layout_height="300dp">
-           </com.houg.manxiang.ui.BannerSlideShowView>
+           </com.demo.zkmanxiang.ui.BannerSlideShowView>
 
            <TextView
                android:text="全国人大常委会副委员长沈跃跃"

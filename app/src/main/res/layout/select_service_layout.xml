@@ -65,7 +65,7 @@
                    android:inputType="number"
                    />
            </LinearLayout>
-           <com.houg.manxiang.ui.PriceCheckBoxGroup
+           <com.demo.zk.manxiang.ui.PriceCheckBoxGroup
                android:orientation="horizontal"
                android:columnCount="3"
                android:useDefaultMargins="true"
@@ -74,7 +74,7 @@
                android:layout_width="wrap_content"
                android:layout_height="wrap_content">
                <!-- 价格 -->
-           </com.houg.manxiang.ui.PriceCheckBoxGroup>
+           </com.demo.zk.manxiang.ui.PriceCheckBoxGroup>
            <View
                android:layout_width="match_parent"
                android:layout_height="1px"

@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     >
-    <com.houg.manxiang.ui.BannerSlideShowView
+    <com.demo.zk.manxiang.ui.BannerSlideShowView
         android:id="@+id/slideshowView"
         android:layout_width="match_parent"
         android:layout_height="180dp" />

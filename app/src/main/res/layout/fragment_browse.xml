@@ -9,7 +9,7 @@
        android:id="@+id/browse_header"
        layout="@layout/browse_header_layout"/>
 
-    <com.houg.manxiang.ui.BrowseStickyNavLayout
+    <com.demo.zk.manxiang.ui.BrowseStickyNavLayout
         android:layout_below="@+id/browse_header"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -50,6 +50,6 @@
             android:background="@android:color/white"
             android:scrollbars="none" />
 
-    </com.houg.manxiang.ui.BrowseStickyNavLayout>
+    </com.demo.zk.manxiang.ui.BrowseStickyNavLayout>
 
 </RelativeLayout>

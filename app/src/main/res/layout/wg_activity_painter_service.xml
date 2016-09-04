@@ -73,7 +73,7 @@
                 android:textColor="@color/wg_font_1_black"
                 android:textSize="@dimen/wg_font_13" />
 
-            <com.houg.manxiang.ui.KeywordCheckBoxGroup
+            <com.demo.zk.manxiang.ui.KeywordCheckBoxGroup
                 android:id="@+id/category"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

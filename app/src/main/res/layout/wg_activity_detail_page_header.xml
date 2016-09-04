@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.houg.manxiang.ui.BannerSlideShowView
+    <com.demo.zk.manxiang.ui.BannerSlideShowView
         android:id="@+id/slide_view"
         android:layout_width="@dimen/wg_item_distance_250"
         android:layout_height="@dimen/wg_item_distance_250"
@@ -13,7 +13,7 @@
         android:layout_marginBottom="@dimen/wg_item_distance_9"
         android:layout_marginTop="@dimen/wg_item_distance_9">
 
-    </com.houg.manxiang.ui.BannerSlideShowView>
+    </com.demo.zk.manxiang.ui.BannerSlideShowView>
 
     <TextView
         android:id="@+id/tv_special_detail_content"
@@ -280,7 +280,7 @@
             app:tabGravity="fill"
             app:tabIndicatorColor="#d50f25" />
 
-        <com.houg.manxiang.ui.WrapContentHeightViewPager
+        <com.demo.zk.manxiang.ui.WrapContentHeightViewPager
             android:id="@+id/viewPager"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

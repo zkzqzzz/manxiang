@@ -16,7 +16,7 @@
             android:divider="@null"
             android:scrollbars="none" />
 
-        <com.houg.manxiang.SideBar
+        <com.demo.zk.manxiang.ui.SideBar
             android:id="@+id/sideBar"
             android:layout_width="@dimen/wg_item_distance_30"
             android:layout_height="match_parent"

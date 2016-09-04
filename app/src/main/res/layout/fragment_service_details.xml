@@ -39,7 +39,7 @@
            android:textColor="@color/wg_font_2_description"
            android:textSize="@dimen/wg_font_15" />
 
-       <com.houg.manxiang.ui.CustomGridView
+       <com.demo.zk.manxiang.ui.CustomGridView
            android:id="@+id/grid_view"
            android:background="@color/bg_white"
            android:minHeight="100dp"

@@ -37,7 +37,7 @@
             android:layout_height="match_parent" />
     </RadioGroup>
 
-    <com.houg.manxiang.ui.CustomViewPager
+    <com.demo.zk.manxiang.ui.CustomViewPager
         android:id="@+id/painter_service_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

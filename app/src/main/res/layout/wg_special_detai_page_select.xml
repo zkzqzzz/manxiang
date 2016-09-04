@@ -105,7 +105,7 @@
             android:textSize="@dimen/wg_font_15" />
 
 
-        <com.houg.manxiang.ui.ServiceRadioGroup
+        <com.demo.zk.manxiang.ui.ServiceRadioGroup
             android:id="@+id/serviceRadioGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -131,7 +131,7 @@
             android:textColor="@color/wg_font_2_description"
             android:textSize="@dimen/wg_font_15" />
 
-        <com.houg.manxiang.ui.ServiceParamRadioGroup
+        <com.demo.zk.manxiang.ui.ServiceParamRadioGroup
             android:id="@+id/paramRadioGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

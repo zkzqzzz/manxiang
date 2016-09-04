@@ -6,14 +6,14 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.houg.manxiang.ui.BannerSlideShowView
+    <com.demo.zk.manxiang.ui.BannerSlideShowView
         android:id="@+id/slide_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="@dimen/wg_item_distance_9">
 
-    </com.houg.manxiang.ui.BannerSlideShowView>
+    </com.demo.zk.manxiang.ui.BannerSlideShowView>
 
     <TextView
         android:id="@+id/tv_special_detail_name"

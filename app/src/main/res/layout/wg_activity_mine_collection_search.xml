@@ -75,7 +75,7 @@
     </RadioGroup>
 
 
-    <com.houg.manxiang.ui.CustomViewPager
+    <com.demo.zk.manxiang.ui.CustomViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

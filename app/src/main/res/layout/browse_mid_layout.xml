@@ -40,12 +40,12 @@
             android:src="@mipmap/camera_icon" />
     </RelativeLayout>
     <!--banner-->
-    <com.houg.manxiang.ui.BannerSlideShowView
+    <com.demo.zk.manxiang.ui.BannerSlideShowView
         android:id="@+id/slide_wiew"
         android:layout_width="match_parent"
         android:layout_height="115dp">
 
-    </com.houg.manxiang.ui.BannerSlideShowView>
+    </com.demo.zk.manxiang.ui.BannerSlideShowView>
 
     <LinearLayout
         android:layout_width="match_parent"

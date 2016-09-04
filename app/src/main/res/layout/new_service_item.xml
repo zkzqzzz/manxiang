@@ -14,13 +14,13 @@
         android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <com.houg.manxiang.ui.CustomGridView
+    <com.demo.zk.manxiang.ui.CustomGridView
         android:id="@+id/grid_view"
         android:numColumns="2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </com.houg.manxiang.ui.CustomGridView>
+    </com.demo.zk.manxiang.ui.CustomGridView>
 </LinearLayout>
 
 

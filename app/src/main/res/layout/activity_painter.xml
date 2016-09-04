@@ -9,7 +9,7 @@
        android:id="@+id/painter_header"
        layout="@layout/wg_mine_header"/>
 
-    <com.houg.manxiang.ui.PainterStickyNavLayout
+    <com.demo.zk.manxiang.ui.PainterStickyNavLayout
         android:id="@+id/content_layout"
         android:layout_below="@+id/painter_header"
         android:layout_width="match_parent"
@@ -203,7 +203,7 @@
             android:layout_height="match_parent"
             android:background="@android:color/white"
             android:scrollbars="none" />
-    </com.houg.manxiang.ui.PainterStickyNavLayout>
+    </com.demo.zk.manxiang.ui.PainterStickyNavLayout>
     <View
         android:id="@+id/bottom_line"
         android:layout_above="@+id/painter_bottom"

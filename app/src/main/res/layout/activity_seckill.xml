@@ -24,7 +24,7 @@
         app:tabPaddingBottom="0dp"
         />
 
-    <com.houg.manxiang.ui.CustomViewPager
+    <com.demo.zk.manxiang.ui.CustomViewPager
         android:id="@+id/seckill_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
